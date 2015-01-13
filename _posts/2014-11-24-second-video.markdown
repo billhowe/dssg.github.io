@@ -6,9 +6,13 @@ author: "DSSG"
 published: true
 ---
 
-<center>[<a href="http://dssg.uchicago.edu/faq/">Apply today for DSSG 2015!</a>]</center>
+<h3><center>[<a href="http://dssg.uchicago.edu/faq/">Apply today for DSSG 2015!</a>]</center></h3>
+
+<br />
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/Fc4IHhJSV3I?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<p />
 
 In the second installment of our DSSG 2014 videos, we focus on the team that worked last summer with the <a href="http://www.cityofchicago.org/city/en/depts/cdph.html">Chicago Department of Public Health</a>. Fellows Joe Brew, Alex Loewi, Subhabrata Majumdar, and Andrew Reece and mentor Eric Rozier tackled the problem of lead poisoning, a health issue that still affects parts of the city almost 40 years since the ban on lead-based paint. In 2013, it is estimated that almost 9000 children in Chicago had been exposed to levels of lead that the CDC classifies as dangerous, and that most of this exposure happened in the home.
 
