@@ -16,7 +16,7 @@ published: true
 
 The third video from our 2014 fellowship showcases the broad array of projects that DSSG fellows tackled last summer, ranging from public health, social services, and education to energy conservation, public policy, and economic development. Fellows also talk about how the invaluable experience of working with DSSG has prepared them for futures in the non-profit sector, international government, and other positions where data skills can be applied to create a better world. 
 
-If you would like to join us as a fellow, mentor, or project partner for 2015, there are only three weeks left to apply! Visit our FAQ page for more information and links to the applications, and send any additional questions to us at datascifellows@gmail.com.
+If you would like to join us as a fellow, mentor, or project partner for 2015, there are only three weeks left to apply! Visit <a href="http://dssg.uchicago.edu/faq/">our FAQ page</a> for more information and links to the applications, and send any additional questions to us at datascifellows@gmail.com.
 
 Additional videos:
 
