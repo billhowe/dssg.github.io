@@ -2,3 +2,6 @@ port:  5000
 # prose:
 # 	siteurl: "http://www.dssg.io"
 markdown: kramdown
+name: Data Science for Social Good
+description: The Eric & Wendy Schmidt Data Science for Social Good fellowship is a University of Chicago summer program for aspiring data scientists to work on data mining, machine learning, big data, and data science projects with social impact.
+url: http://www.dssg.io
