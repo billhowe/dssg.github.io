@@ -6,13 +6,12 @@ published: true
 <div class="container">
 
   <h2 class="page-title">
-    2013 Projects
+    2014 Projects
     <hr>
   </h2>	
   <p>
   	During the  program, our fellows  work on data science projects in health, education, energy, transportation, and more.
   </p>
-
    <p> 
   	Our program is intensive and hands-on. Fellows  work directly with <strong>nonprofits</strong>, <strong>local governments</strong>, and <strong>federal agencies</strong>, learning about what they do and tackling data problems they face.
   </p>
@@ -22,7 +21,7 @@ published: true
 
   <!-- Iterate through projects and display info -->
   {% for post in site.posts %}
-    {% if post.type == 'org' %}
+    {% if post.type == 'org14' %}
 
       <div id="projects" class="row section">
 
@@ -66,6 +65,9 @@ published: true
           {{ post.content }}
 
           <!-- Blog post, doc, code -->
+
+
+
           {% if post.blog-post %}
             <a href="{{ post.blog-post }}" class="btn btn-huge btn-danger btn-block btn-embossed">
               Blog post: overview of problem and solution</a>

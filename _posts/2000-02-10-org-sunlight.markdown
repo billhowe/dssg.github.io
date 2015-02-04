@@ -5,6 +5,7 @@ slug: sunlight
 img: [harris.png, sunlight.png]
 website: ['http://harrisschool.uchicago.edu', 'http://sunlightfoundation.com']
 project: Text Analysis of Government Spending Bills to Understand Pork Spending
+description: http://dssg.uchicago.edu/projects/2014/#sunlight
 blog-post: http://dssg.uchicago.edu/2014/12/04/earmarks-data-transparent-government.html
 ---
 

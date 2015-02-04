@@ -5,6 +5,7 @@ slug: enroll
 img: [enroll.jpg, get-covered-illinois.jpg]
 website: ['http://www.enrollamerica.org/', 'http://getcoveredillinois.gov/']
 project: Targeting the Uninsured for Health Insurance Enrollment
+description: http://dssg.uchicago.edu/projects/2014/#enroll
 blog-post: http://dssg.uchicago.edu/2014/07/14/warm-calls-enroll.html
 ---
 

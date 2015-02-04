@@ -5,6 +5,7 @@ slug: wikienergy
 img: [pecanstreet.png, wikienergy.png]
 website: ['http://www.pecanstreet.org/', 'http://wiki-energy.org/']
 project: Building Open Source Tools to Analyze Smart Meter Data
+description: http://dssg.uchicago.edu/projects/2014/#wikienergy
 blog-post: http://dssg.uchicago.edu/2014/07/18/smarter-smart-meters.html
 repo: https://github.com/dssg/wikienergy
 ---

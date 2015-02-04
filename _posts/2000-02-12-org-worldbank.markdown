@@ -5,6 +5,7 @@ slug: worldbank
 img: world-bank.jpg
 website: ['http://www.worldbank.org/']
 project: Prediction & Identification of Collusion in International Development Projects
+description: http://dssg.uchicago.edu/projects/2014/#worldbank
 blog-post: http://dssg.uchicago.edu/2014/07/11/world-bank-corruption.html
 ---
 

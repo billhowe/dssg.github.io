@@ -4,6 +4,7 @@ org: [Skills for Chicagoland's Future, CareerBuilder]
 slug: skills
 img: [sfcf.png, careerbuilder.png]
 website: ['http://www.skillsforchicagolandsfuture.com/', 'http://careerbuilder.com/']
+description: http://dssg.uchicago.edu/projects/2014/#skills
 project: Identifying Skills Gaps to Reduce Unemployment
 ---
 

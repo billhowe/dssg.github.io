@@ -1,7 +1,7 @@
 ---
 layout: post
 type: news
-title: "Data Science For Social Good 2014 Videos: Chapter 1"
+title: "Data Science For Social Good 2014 Videos: Chapter 3"
 author: "DSSG"
 published: true
 ---
