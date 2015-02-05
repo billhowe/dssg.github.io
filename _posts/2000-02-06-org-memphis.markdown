@@ -4,6 +4,8 @@ org: City of Memphis
 slug: memphis
 img: [memphis.jpg]
 website: ['http://www.memphistn.gov/']
+blog-post: http://dssg.uchicago.edu/2014/11/12/memphis-easing-distress.html
+description: http://dssg.uchicago.edu/projects/2014/#memphis
 project: Targeted Urban Investments to Improve Future Economic Outcomes
 ---
 

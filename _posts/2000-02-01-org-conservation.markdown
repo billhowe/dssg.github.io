@@ -4,6 +4,8 @@ org: Conservation International
 slug: conservation
 img: [conservation.png]
 website: ['http://www.conservation.org/']
+description: http://dssg.uchicago.edu/projects/2014/#conservation
+blog-post: http://dssg.uchicago.edu/2014/07/30/temperature-nature-preserves.html
 project: Using Sensor Data to Inform and Evaluate Environmental Initiatives
 ---
 

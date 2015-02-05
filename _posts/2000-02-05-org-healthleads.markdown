@@ -4,6 +4,8 @@ org: Health Leads
 slug: healthleads
 img: healthleads.jpg
 website: ['https://healthleadsusa.org/']
+description: http://dssg.uchicago.edu/projects/2014/#healthleads
+blog-post: http://dssg.uchicago.edu/2014/12/15/health-leads.html
 project: Improving Social Services Interactions 
 ---
 

@@ -40,6 +40,12 @@ published: true
             {% endfor %}
     
 <!-- Blog post, doc, code -->
+          {% if post.description %}
+            <a href="{{ post.description }}" class="btn btn-huge btn-success btn-block btn-embossed">
+              Description</a>
+          {% endif %}
+
+
           {% if post.blog-post %}
             <a href="{{ post.blog-post }}" class="btn btn-huge btn-danger btn-block btn-embossed">
               Blog</a>

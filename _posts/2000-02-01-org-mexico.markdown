@@ -5,6 +5,7 @@ slug: mexico
 img: [mexico.png]
 website: ['http://en.presidencia.gob.mx/']
 project: Reducing Maternal Mortality Rates in Mexico
+description: http://dssg.uchicago.edu/projects/2014/#mexico
 blog-post: http://dssg.uchicago.edu/2014/12/10/mexico-distilling-data-policy.html
 repo: https://github.com/dssg/mexico-public
 ---

@@ -4,6 +4,8 @@ org: Montgomery County Public Schools, Rockville, MD
 slug: mcps
 img: mcps.png
 website: ['http://www.montgomeryschoolsmd.org/']
+description: http://dssg.uchicago.edu/projects/2014/#mcps
+blog-post: http://dssg.uchicago.edu/2014/11/20/mcps-models-struggling-students.html
 project: Increasing Graduation Rates and Improving College Readiness for High School Students
 ---
 

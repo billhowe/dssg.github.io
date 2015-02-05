@@ -4,6 +4,8 @@ org: Chicago Alliance to End Homelessness
 slug: homeless
 img: alliance.jpg
 website: ['http://www.thechicagoalliance.org/']
+description: http://dssg.uchicago.edu/projects/2014/#homeless
+blog-post: http://dssg.uchicago.edu/2014/08/20/paths-homelessness.html
 project: Effectiveness of Intervention Strategies on the Homeless
 ---
 
