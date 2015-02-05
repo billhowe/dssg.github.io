@@ -24,7 +24,14 @@ Fellow applications just closed for the 2015 Summer Fellowship and we were excit
 Only 20% applied on the last day. 15% applied the day before. 85% applied in the last two weeks. We'll find out if the early birds had any advantage when we review the acceptances.
 
 ####What are they studying?
-22% are studying soem flavor of Computer Science. 7% are studying Statistics.  6% Economics. Only 20% applied on the last day. 15% applied the day before. 85% applied in the last two weeks. We'll find out if the early birds had any advantage when we review the acceptances.
+25% are studying some flavor of Computer Science. 8% are studying Statistics.  7% Economics. 8% Math/Applied Math. 5% Sociology. 4% Public Policy. 4% Political Science.
+
+####Are they all grad students? Undergrads? 
+35% are in Masters programs. 34% are in Ph.D programs. 19% are undegrads. 2% Post-docs. The rest have recently graduated with undergrad, masters, or phd degrees and are working now, with some of them planning to apply for graduate programs in the near future.
+
+
+
+
 
 
 
