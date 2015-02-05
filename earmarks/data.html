@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Data Science for Social Good fellowship - University of Chicago</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+<link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="/css/custom.css" rel="stylesheet">
+<link href="/css/site.css" rel="stylesheet">
+<link href="/css/flat-ui.css" rel="stylesheet">
+<script src="/js/modernizr.js"></script>
+</head>
+<body>
+<!-- Navbar -->
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <!-- The Logo -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target="#nav-collapse-03">
+            </button>
+            <a href="http://dssg.io" id="nav-logo" class="brand">
+                <!-- <i class="fui-loop" style="vertical-align: bottom;"></i> -->
+                Data Science for Social Good</a>
+            <div class="nav-collapse collapse" id="nav-collapse-03">
+                <ul class="nav">
+                    <li>
+                    <a href="http://dssg.io/people">
+                        People
+                    </a>
+                    </li>
+                    <li>
+                    <a href="http://dssg.io/projects">
+                        Projects
+                    </a>
+                    </li>
+                    <li>
+                    <a href="http://dssg.io/events">
+                        Events
+                    </a>
+                    </li>
+                    <li>
+                    <a href="http://dssg.io/contact">
+                        Get involved
+                    </a>
+                    </li>
+                    <li>
+                    <a href="http://dssg.io/blog">
+                        Blog
+                    </a>
+                    </li>
+                    <li>
+                    <a href="http://dssg.io/media">
+                        Media
+                    </a>
+                    </li>
+                </ul> <!-- /nav -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Header -->
+
+<div class="container">
+    <div class="row">
+        <div class="span1">
+        </div>
+        <div class="span10">
+            <h2 class="page-title">
+                Introducting the DSSG Earmarks Dataset
+                <hr/>
+            </h2>
+            
+            <h3 class="faq-subtext">Download the Dataset</h3>
+            <hr/>
+            You can find the latest version (updated February 5, 2015) of the dataset in CSV format <a href="http://dssg.uchicago.edu/earmarks/candidate_earmarks.csv">here</a>.
+
+            <h3 class="faq-subtext">What Is an Earmark?</h3>
+            <hr/>
+            <h4>About Earmarks</h4>
+            <p class="answer">
+                "Among practitioners and scholars, <a href="http://www.law.harvard.edu/faculty/hjackson/Earmarks_16.pdf">no single definition</a> of the term <i>earmark</i> is universally accepted." For this project, we treat congressionally directed budget items allocated to specific people, places, or projects as earmarks.</p>
+
+                <p>Note that our operating definition does not depend on a value judgment (good or bad) about earmarks.  Earmarks may be good, conditionally good, or bad; although we hope that this dataset can help shed light on which, we leave it in the hands of others to determine.
+                </p>
+
+            <h3 class="faq-subtext">Why Another Earmarks Dataset?</h3>
+            <hr/>
+            <h4>About the Dataset</h4>
+            <p class="answer">
+                Our goal was to build a tool that finds earmarks in congressional texts, not a dataset of earmarks itself. Datasets are naturally static objects that require regular care to remain up to date. Our tool not only creates historical datasets but can continue to update those datasets with minimal time and effort. As the saying goes, give a man a fish and he eats for a day; teach him to fish and he eats for a lifetime.</p>
+
+                <p>Automated identification also provides a way to consistently enforce a standard. What one person would consider an earmark another person might not, which makes comparisons across human-created datasets difficult. The <a href="http://fas.org/sgp/crs/misc/m012606.pdf">Congressional Research Service</a> (CRS), <a href="http://cagw.org/reporting/pig-book">Citizens Against Government Waste</a> (<a href="http://www.law.harvard.edu/faculty/hjackson/Earmarks_16.pdf">Porter and Walsh</a>, 2006), and the <a href="https://earmarks.omb.gov/earmarks-public/">Office of Management and Budget</a> (OMB) either use inconsistent or unclear standards.</p>
+
+                <p>That being said, our approach has its own problems. Senators and representatives allocate money   We wrote table parsers based on congressional texts from 2008, 2009, and 2010, 
+
+
+
+                 
+* a dataset is fixed, can't be updated without a lot of work
+* a tool
+
+                A dataset would remain We wanted to build something that would remain relevant after we finished, and a dataset There are two reasons for this: first, earmarks are tedious and time-consuming to identify in federal bills and reports that may be hundreds of pages long. A computer can  and human-created datasets can introduce bias in unseen ways. <a href="http://cagw.org/reporting/pig-book">Citizens Against Government Waste</a>, <a href="http://www.taxpayer.net/library/article/earmark-data">Taxpayers for Common Sense</a>, the <a href="http://fas.org/sgp/crs/misc/m012606.pdf">Congressional Research Service</a> (CRS), and the <a href="https://earmarks.omb.gov/earmarks-public/">Office of Management and Budget</a> (OMB) have created earmark datasets that may suit a specific historical purpose well, but our  
+
+                This dataset is the byproduct of our work.
+
+            
+            </p>
+            <h4>How much will this cost me?</h4>
+            <p class="answer">
+Nothing! Actually, we want to help you take a chunk out of your energy bill. You know how high it is!
+            </p>
+            <h4>Who else is participating in this trial?</h4>
+            <p class="answer">
+Your neighbors! For now, this early trial is exclusively in Oak Park. If this program is successful in Oak Park, future programs like this around the country will benefit from what we've learned here.
+            </p>
+            <h4>What kind of information will you be able to see?</h4>
+            <p class="answer">
+We will be able to see your energy usage (kWh) in short time intervals. 
+            </p>
+            <h4>Will my data be kept private?</h4>
+            <p class="answer">
+Yes, your data will only be visible to members of Data Science for Social Good (DSSG). 
+            </p>
+            <h3What is DSSG? </h4>
+            <p class="answer">
+Data Science for Social Good is a fellowship program at the University of Chicago connecting young data scientists and non-profits. Our purpose is social good. We create open source tools that help communities, organizations, and individuals use their data intelligently for their benefit and for the benefit of others. <a href='http://dssg.uchicago.edu/'>Click here to learn more about our fellowship program.</a>
+            </p>
+            <h4>Who are we?</h4>
+            <p class="answer">
+Just a couple of heroes interested in saving energy!
+            <img src="/img/posts/energy-team.png">
+            </p>
+        </div>
+        <div class="span1">
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <hr/>
+        <h1 class="headline">
+            <img id="logo" src="img/logo.png">
+            <p>The Eric & Wendy Schmidt</p>
+            Data Science for Social Good
+            <p>Summer Fellowship</p>
+            <img id="logo" src="/img/partners/uofc-new.jpg">
+        </h1>
+        <hr/>
+    </div>
+</div>
+
+</body>
+</html>
