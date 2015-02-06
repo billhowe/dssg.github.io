@@ -51,6 +51,12 @@ published: true
               Blog</a>
           {% endif %}
 
+          {% if post.demo %}
+            <a href="{{ post.demo }}" class="btn btn-huge btn-primary btn-block btn-embossed">
+              Demo/a>
+          {% endif %}
+
+
           {% if post.repo %}
             <a href="{{ post.repo }}" class="btn btn-huge btn-info btn-block btn-embossed">
               Code</a>
