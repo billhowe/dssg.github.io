@@ -84,16 +84,32 @@
 
             <h4 class="faq-subtext">Why Another Earmarks Dataset?</h4>
             <p class="answer">
-                Our goal was to build a tool that finds earmarks in congressional texts, not a dataset of earmarks itself. Datasets are naturally static objects that require regular care to remain up to date. Our tool not only creates historical datasets but can continue to update those datasets with minimal time and effort. As the saying goes, give a man a fish and he eats for a day; teach him to fish and he eats for a lifetime.
+                Our goal was to build a tool that finds earmarks in congressional texts, not to build a dataset of earmarks. A dataset would offer a snapshot of the past, but we wanted to build something that will prove useful in the future. Our tool can create historical datasets and update those datasets with minimal time and effort. As the saying goes, give a man a fish and he eats for a day; teach him to fish and he eats for a lifetime.
             </p>
 
             <p>
-                That being said, we are providing 
-                Automated identification also provides a way to consistently enforce a standard. What one person would consider an earmark another person might not, which makes comparisons across human-created datasets difficult. The <a href="http://fas.org/sgp/crs/misc/m012606.pdf">Congressional Research Service</a> (CRS), <a href="http://cagw.org/reporting/pig-book">Citizens Against Government Waste</a> (<a href="http://www.law.harvard.edu/faculty/hjackson/Earmarks_16.pdf">Porter and Walsh</a>, 2006), and the <a href="https://earmarks.omb.gov/earmarks-public/">Office of Management and Budget</a> (OMB) either use inconsistent or unclear standards.
+                Sharing our algorithm also brings transparency to the process.  <a href="http://www.law.harvard.edu/faculty/hjackson/Earmarks_16.pdf">Porter and Walsh</a> have expressed concerns about coding decisions in other datasets; an algorithm provides replicable results and a way to trace its decision-making process.
             </p>
 
             <p>
-                That being said, our approach has its own problems. Senators and representatives allocate money   We wrote table parsers based on congressional texts from 2008, 2009, and 2010, 
+                That being said, we can save you the trouble of creating an earmarks database from our scripts by providing a copy of our data in CSV format <a href="/earmarks/candidate_earmarks.csv">here</a>.  
+            </p>
+
+
+            <p>
+                Our approach comes with costs. To simplify the problem, we decided to focus on tables, where 85% of observable earmarks reside.  We ignored free text in the bills and reports as well as phone calls and letters.  We cannot estimate how many earmarks we’re missing because the call logs and letters are not public, but Senator Franken’s office says letter writing is lettermarking (no one knows exactly how often because the process is not public, but Al Franken's office says it's "<a href="http://www.minnpost.com/politics-policy/2013/09/are-lettermarks-congress-new-end-around-earmarks-ban">fairly routine</a>" and it’s likely becoming more common given Congress’s stated ban on earmarks since 2010.  
+            </p>
+
+            <p>
+                Another challenge we faced was the variety of table formats used.  The Government Printing Office provides congressional bills and reports as plain text files where tables appear as blocks of formatted text.  Indentation, whitespace, and occasionally dots and dashes are used to format tables.  Our program finds the tables by searching for these text patterns, but Congress could easily hide a table from our script by, say, using semi-colons instead.  We do not know how often this happens.
+            </p>
+
+            <p>
+                In short, we likely missed more than 15% of earmarks.
+            </p>
+
+            <p>
+                Additional effort can reduce our error rate.  We welcome outside help and invite improvements to our algorithm.  <!-- You can fork our code from <a href="https://github.com/dssg/machine_learning_legislation">our GitHub repository</a>. -->
             </p>
 
 
@@ -113,6 +129,7 @@
 
                 <p>
                     The user needs to choose a cutoff at which everything above is considered an earmark and everything below is not. This choice has consequences: the higher the cutoff, the less likely we are to find both true and false earmarks.  Thinking about the extremes helps clarify the concept:
+
                     <ul>
                         <li>Few scores will exceed a very high cutoff. The good is that you will not find many false earmarks; the bad is that you will not find many of the earmarks.</li>
                         <li>Most scores will exceed a very low cutoff. The good is that you will find almost all the earmarks; the bad is that you will also find lots of false earmarks.</li>
@@ -122,7 +139,7 @@
                 </p>
 
                 <p>
-                    Forcing the user to choose a cutoff also brings transparency to the identification process. Unlike the human-coded datasets, the cutoff provides a clear standard for categorization, and it enables discussion of model sensitivity (for example, what happens to the model when you choose a different cutoff?) 
+                    Forcing the user to choose a cutoff also brings transparency to the identification process. <a href="http://www.law.harvard.edu/faculty/hjackson/Earmarks_16.pdf">Unlike the human-coded datasets</a>, the cutoff provides a clear standard for categorization and enables discussion of model sensitivity (for example, what happens to the model when you choose a different cutoff?)  
                 </p>
 
 
@@ -130,11 +147,11 @@
 
             <h4>What is DSSG?</h4>
             <p class="answer">
-                Data Science for Social Good is a fellowship program at the University of Chicago connecting young data scientists and non-profits. Our purpose is social good. We create open source tools that help communities, organizations, and individuals use their data intelligently for their benefit and for the benefit of others. <a href='http://dssg.uchicago.edu/'>Click here to learn more about our fellowship program.</a>
+                Data Science for Social Good is a fellowship program at the University of Chicago connecting aspiring data scientists and non-profits. Our purpose is social good. We create open-source tools that help communities, organizations, and individuals use data intelligently for their benefit and for the benefit of others. <a href='http://dssg.uchicago.edu/'>Click here to learn more about our fellowship program.</a>
             </p>
             <h4>Who are we?</h4>
             <p class="answer">
-            <img src="img/posts/earmarks-team.png">
+            <img src="/img/posts/earmarks-team.png">
             </p>
         </div>
         <div class="span1">
