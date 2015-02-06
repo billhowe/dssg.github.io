@@ -10,7 +10,7 @@ published: true
     <hr>
   </h2>	
   <p>
-  	During the  program, our fellows work on data science projects in healthcare, education, energy, transportation, and more.
+  	During the program, our fellows work on data science projects in healthcare, education, energy, transportation, and more.
   </p>
    <p> 
   	Our program is intensive and hands-on. Fellows work with <strong>nonprofits</strong>, <strong>local governments</strong>, and <strong>federal agencies</strong>, learning about what they do and tackling data problems they face.
@@ -54,6 +54,11 @@ published: true
           {% if post.repo %}
             <a href="{{ post.repo }}" class="btn btn-huge btn-info btn-block btn-embossed">
               Code</a>
+          {% endif %}
+
+          {% if post.data %}
+            <a href="{{ post.data }}" class="btn btn-huge btn-warning btn-block btn-embossed">
+              Data</a>
           {% endif %}
 
     </div>    
