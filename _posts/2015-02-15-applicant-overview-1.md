@@ -40,6 +40,8 @@ DSSG brings together disciplines that need to work together to solve large-scale
 
 ####Are they all grad students? Undergrads? 
 35% are in Masters programs. 34% are in PhD programs. 19% are undegrads. 2% Post-docs. The rest have recently graduated with Undergrad, Masters, or PhD degrees and are currently working, with some of them planning to apply for graduate programs in the near future. This breadth of experience allows us to build effective teams to solve problems as well as learn from each other.
+
+
 <img src="/img/posts/2015-appl-degree.jpg"  width=50%>
 
 
