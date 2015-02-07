@@ -27,10 +27,10 @@ Here's part 1:
 They applied from 41 Countries, 43 US States (where are you Alaska and Hawaii?), and over 250 Universities. 
 <p><p><p><p>
 
-<img src="/img/posts/2015-appl-where.jpg">
+<img src="/img/posts/2015-appl-where.jpg" width=75%>
 <p><p><p><p><p>
 
-<img src="/img/posts/2015-appl-school.jpg">
+<img src="/img/posts/2015-appl-school.jpg" width=75%>
 <p><p><p><p>
 
 ####When did they apply?
