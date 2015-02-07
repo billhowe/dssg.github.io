@@ -2,7 +2,7 @@
 layout: post
 type: news
 title: "Data Science For Social Good 2015 Applicants: Chapter 1"
-author: "Rayid Ghani"
+author: Rayid Ghani
 published: false
 ---
 
@@ -20,7 +20,7 @@ Here's part 1:
 <img src="/img/posts/2015-appl-number.png" width=50% align="left">
 <img src="/img/posts/2015-appl-gender.jpg"  width=30% align="right">
 
-<p><p><p><p>
+<p><p><p><p><p><p><p><p>
 62% (472) of them are male, 38% (298) female - that's 210 more women applying than did last year (thanks Grace Hopper Conference!). We've always believed that solving social problems works best when the people working on them are more representative of society than typical tech crowd (or the US Congress for that matter) and it's great to see our applicant pool expanding in that direction. 
 
 ####Where did they apply from?
@@ -54,8 +54,3 @@ DSSG brings together disciplines that need to work together to solve large-scale
 <p><p>
 <p><p>
 Stay tuned as we dig deeper into the applications...
-
-
-
-
-
