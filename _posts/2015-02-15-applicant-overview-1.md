@@ -3,7 +3,7 @@ layout: post
 type: news
 title: "Data Science For Social Good 2015 Applicants: Chapter 1"
 author: Rayid Ghani
-published: false
+published: true
 ---
 
 Who applied for the 2015 Summer Program? Chapter 1
