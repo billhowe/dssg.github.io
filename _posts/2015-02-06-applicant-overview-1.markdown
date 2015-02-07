@@ -10,7 +10,7 @@ Fellow applications just closed for the 2015 Summer Fellowship and we were excit
 
 Here's part 1:
 
-####How many people applied?
+<h4>How many people applied?</h4>
 784 - That's a 30% increase over 2013 and more than double the applicants compared to 2014. Yes we know it's a vanity metric but it's a signal and we're not only seeing an increase in the number of people applying, but also in the diversity of their backgrounds. It's exciting to see so many people who want to learn to use data science for social good.
 <p><p><p><p>
 <img src="/img/posts/2015-appl-number.png" width="50%" style="float: left; width: 50%; margin-right: 1%; margin-bottom: 0.5em;">
