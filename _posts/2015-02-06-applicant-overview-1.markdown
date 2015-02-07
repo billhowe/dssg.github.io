@@ -46,7 +46,7 @@ DSSG brings together disciplines that need to work together to solve large-scale
 
 <p><p><p><p>
 
-<img src="/img/posts/2015-appl-degree.jpg">
+<img src="/img/posts/2015-appl-degree.jpg"   width="50%">
 <p><p>
 <p><p>
 Stay tuned as we dig deeper into the applications...
