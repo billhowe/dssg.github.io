@@ -7,9 +7,9 @@ published: true
 ---
 
 Fellow applications just closed for the 2015 Summer Fellowship and we were excited to see almost 800 people apply! As we review these (inspiring) applications and make (extremely difficult) decisions, we'll spend the next few blog posts talking about who applied: Where did they come from? What backgrounds do they have? What are they studying? What skills do they have? What are they interested in working on? What motivates them to apply their skills to social good? 
-<p>
+
 Here's part 1:
-<p>
+
 ####How many people applied?
 784 - That is a 30% increase over 2013 and more than double the applicants compared to 2014. Yes we know it's a vanity metric but it's a signal and we're not only seeing an increase in the number of people applying, but also in the diversity of their backgrounds. It's exciting to see so many people who want to learn to use data science for social good.
 <p><p><p><p>
@@ -46,7 +46,7 @@ DSSG brings together disciplines that need to work together to solve large-scale
 
 <p><p><p><p>
 
-<img src="/img/posts/2015-appl-degree.jpg"  width=50%>
+<img src="/img/posts/2015-appl-degree.jpg">
 <p><p>
 <p><p>
 Stay tuned as we dig deeper into the applications...
