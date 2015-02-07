@@ -30,7 +30,7 @@ They applied from 41 Countries, 43 US States (where are you Alaska and Hawaii?),
 
 ####When did they apply?
 20% applied on the last day. 15% applied the day before. 85% applied in the last two weeks. We'll find out if the early birds had any advantage when we review the acceptances.
-<img src="/img/posts/2015-appl-when.jpg"  width=30%>
+<img src="/img/posts/2015-appl-when.jpg"  width=50%>
 
 
 ####What are they studying?
