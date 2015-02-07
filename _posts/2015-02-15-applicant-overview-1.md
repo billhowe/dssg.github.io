@@ -10,40 +10,47 @@ published: false
 <p />
 
 Fellow applications just closed for the 2015 Summer Fellowship and we were excited to see almost 800 people apply! As we review these (inspiring) applications and make (extremely difficult) decisions, we'll spend the next few blog posts talking about who applied: Where did they come from? What backgrounds do they have? What are they studying? What skills do they have? What are they interested in working on? What motivates them to apply their skills to social good? 
-<br>
+<p>
 Here's part 1:
 <p>
 ####How many people applied?
 784 - That is a 30% increase over 2013 and more than double the applicants compared to 2014. Yes we know it's a vanity metric but it's a signal and we're not only seeing an increase in the number of people applying, but also in the diversity of their backgrounds. It's exciting to see so many people who want to learn to use data science for social good.
-
+<p><p>
 <img src="/img/posts/2015-appl-number.png" width=50%>
 <img src="/img/posts/2015-appl-gender.jpg"  width=30%>
 
-
+<p><p>
 62% (472) of them are male, 38% (298) female - that's 210 more women applying than did last year (thanks Grace Hopper Conference!). We've always believed that solving social problems works best when the people working on them are more representative of society than typical tech crowd (or the US Congress for that matter) and it's great to see our applicant pool expanding in that direction. 
 
 ####Where did they apply from?
 They applied from 41 Countries, 43 US States (where are you Alaska and Hawaii?), and over 250 Universities. 
-<img src="/img/posts/2015-appl-where.jpg">
-<img src="/img/posts/2015-appl-school.jpg">
+<p><p>
 
+<img src="/img/posts/2015-appl-where.jpg">
+<p>
+
+<img src="/img/posts/2015-appl-school.jpg">
+<p><p>
 
 ####When did they apply?
 20% applied on the last day. 15% applied the day before. 85% applied in the last two weeks. We'll find out if the early birds had any advantage when we review the acceptances.
-
+<p><p>
 <img src="/img/posts/2015-appl-when.jpg"  width=70%>
-
+<p><p>
 
 ####What are they studying?
 DSSG brings together disciplines that need to work together to solve large-scale social problems. Our applicant pool relfects that really well! 27% are studying some flavor of Computer Science (including AI, Machine Learning, Data Mining), 16% Social Sciences, 16% Math & Stats, and 7% Public Policy/Health. 
-<img src="/img/posts/2015-appl-major.jpg">
+<p><p>
 
+<img src="/img/posts/2015-appl-major.jpg">
+<p><p>
 ####Are they all grad students? Undergrads? 
 35% are in Masters programs. 34% are in PhD programs. 19% are undegrads. 2% Post-docs. The rest have recently graduated with Undergrad, Masters, or PhD degrees and are currently working, with some of them planning to apply for graduate programs in the near future. This breadth of experience allows us to build effective teams to solve problems as well as learn from each other.
 
+<p><p>
 
 <img src="/img/posts/2015-appl-degree.jpg"  width=50%>
-
+<p><p>
 
 Stay tuned as we dig deeper into the applications...
 
