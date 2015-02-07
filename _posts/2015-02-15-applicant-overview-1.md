@@ -17,9 +17,8 @@ Here's part 1:
 ####How many people applied?
 784 - That is a 30% increase over 2013 and more than double the applicants compared to 2014. Yes we know it's a vanity metric but it's a signal and we're not only seeing an increase in the number of people applying, but also in the diversity of their backgrounds. It's exciting to see so many people who want to learn to use data science for social good.
 <p><p><p><p>
-<img src="/img/posts/2015-appl-number.png" style="float: left; width: 50%; margin-right: 1%; margin-bottom: 0.5em;">
-<img src="/img/posts/2015-appl-gender.jpg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"><img src="/img/posts/2015-appl-number.png" width=50% align="left">
-<img src="/img/posts/2015-appl-gender.jpg"  width=30% align="right">
+<img src="/img/posts/2015-appl-number.png" width=50% style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="/img/posts/2015-appl-gender.jpg" width=30% style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
 
 <p><p><p><p><p><p><p><p>
 62% (472) of them are male, 38% (298) female - that's 210 more women applying than did last year (thanks Grace Hopper Conference!). We've always believed that solving social problems works best when the people working on them are more representative of society than typical tech crowd (or the US Congress for that matter) and it's great to see our applicant pool expanding in that direction. 
