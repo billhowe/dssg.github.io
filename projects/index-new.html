@@ -69,62 +69,9 @@ published: true
 
     </div>    
     {% endif %}
-  {% endfor %} 
+    {% endfor %}
   </div>
 
 
-  <!-- Iterate through projects and display info -->
-  {% for post in site.posts %}
-    {% if post.type == 'org14' %}
-
-      <div id="projects" class="row section">
-
-        <!-- Project issue area -->
-        {% if post.issue %}
-          <span class="label label-large label-important">{{ post.issue }}</span>
-        {% endif %}
-
-        <!-- Project title -->
-        <h4 id="{{ post.slug }}" class="project-title">
-
-          <!-- Project partners -->
-          {% for org in post.org %}
-            <!-- Fetch the right partner url using current loop index-->
-            <a href="{{ post.website[forloop.index0] }}">{{ org }}</a>
-            <!-- Add comma after org name, unless last org in partner list -->
-            {% if forloop.last != true %}
-              ,
-            {% endif %} 
-          {% endfor %}
-
-          <!-- Project name -->
-          - {{ post.project }}
-
-        </h4>
-
-        <!-- Partner logos -->
-        <div class="span4">
-            {% for img in post.img %}
-              <!-- Fetch the right image link as you loop through partner logos -->
-              <a href="{{ post.website[forloop.index0] }}">            
-              <img src="/img/partners/{{ img }}">
-              </a>
-            {% endfor %}
-        </div>
-
-        <!-- Project description -->
-        <div class="span8">
-
-          <!-- Blurb -->
-          {{ post.content }}
-
-          
-        </div>
-
-
-      </div>
-
-    {% endif %}
-  {% endfor %}
 
 </div>

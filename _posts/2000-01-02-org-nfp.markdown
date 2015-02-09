@@ -1,5 +1,6 @@
 ---
 published: true
+layout: default
 type: org
 org: "Nurse-Family Partnership"
 slug: nfp
