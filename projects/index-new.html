@@ -29,7 +29,7 @@ published: true
   {% for post in site.posts %}
     {% if post.type == 'org14' %}   
     <div class="span3 projectbox">
-      <h3 style="font-size: 20px; margin-bottom: 16px;">{{ post.project }}</h3>
+      <a href="{{ post.description }}"><h3 style="font-size: 20px; margin-bottom: 16px;">{{ post.project }}</h3></a>
     <p>
 
       {% for img in post.img %}
@@ -39,33 +39,7 @@ published: true
               </a>
             {% endfor %}
     
-<!-- Blog post, doc, code -->
-          {% if post.description %}
-            <a href="{{ post.description }}" class="btn btn-huge btn-success btn-block btn-embossed">
-              Description</a>
-          {% endif %}
 
-
-          {% if post.blog-post %}
-            <a href="{{ post.blog-post }}" class="btn btn-huge btn-danger btn-block btn-embossed">
-              Blog</a>
-          {% endif %}
-
-          {% if post.demo %}
-            <a href="{{ post.demo }}" class="btn btn-huge btn-primary btn-block btn-embossed">
-              Demo</a>
-          {% endif %}
-
-
-          {% if post.repo %}
-            <a href="{{ post.repo }}" class="btn btn-huge btn-info btn-block btn-embossed">
-              Code</a>
-          {% endif %}
-
-          {% if post.data %}
-            <a href="{{ post.data }}" class="btn btn-huge btn-warning btn-block btn-embossed">
-              Data</a>
-          {% endif %}
 
     </div>    
     {% endif %}
