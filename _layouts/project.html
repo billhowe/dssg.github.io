@@ -1,0 +1,56 @@
+---
+published: true
+layout: default
+---
+
+<div id="projects" class="row section">
+
+        <!-- Project issue area -->
+        {% if page.issue %}
+          <span class="label label-large label-important">{{ page.issue }}</span>
+        {% endif %}
+
+        <!-- Project title -->
+        <h3 id="{{ page.slug }}" class="project-title">
+
+          
+
+          <!-- Project name -->
+          {{ page.project }}
+
+        </h3>
+
+        <!-- Partner logos -->
+        <div class="span4">
+            {% for img in page.img %}
+              <!-- Fetch the right image link as you loop through partner logos -->
+              <a href="{{ page.website[forloop.index0] }}">            
+              <img src="/img/partners/{{ img }}">
+              </a>
+            {% endfor %}
+        </div>
+
+        <!-- Project description -->
+        <div class="span8">
+
+          <!-- Blurb -->
+          <div class="project-blurb">
+          {{ page.content }}
+      	  </div>
+
+          <!-- Blog post, doc, code -->
+          {% if page.blog-post %}
+            <a href="{{ page.blog-post }}" class="btn btn-huge btn-danger btn-block btn-embossed">
+              Blog post: overview of problem and solution</a>
+          {% endif %}
+
+          {% if page.wiki %}
+            <a href="{{ page.wiki }}" class="btn btn-huge btn-success btn-block btn-embossed">
+              Report: in-depth, technical documentation</a>
+            <a href="{{ page.repo }}" class="btn btn-huge btn-info btn-block btn-embossed">
+              Code: open source code on Github</a>
+          {% endif %}
+        </div>
+
+
+</div>
