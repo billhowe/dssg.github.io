@@ -3,7 +3,7 @@ published: true
 layout: default
 ---
 
-<div id="projects" class="row section">
+<div id="project-page" class="row section">
 
         <!-- Project issue area -->
         {% if page.issue %}
@@ -21,7 +21,7 @@ layout: default
         </h3>
 
         <!-- Partner logos -->
-        <div class="span4">
+        <div class="span4" class="project-logo">
             {% for img in page.img %}
               <!-- Fetch the right image link as you loop through partner logos -->
               <a href="{{ page.website[forloop.index0] }}">            

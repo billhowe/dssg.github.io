@@ -326,7 +326,13 @@ li {
         margin-bottom: 30px;
         display: block;
         margin-right: auto;
-        margin-left: auto;
+}
+
+#project-page img {
+        margin-bottom: 30px;
+        display: block;
+        margin-right: auto;
+        margin-left: 20px;
 }
 
 .project-blurb {
@@ -335,6 +341,7 @@ li {
         color: rgb(73, 78, 85);
         font-family: 'ff-tisa-web-pro', Georgia, Cambria, 'Times New Roman', Times, serif;
         margin-bottom: 30px;
+        margin-left: 20px;
 }
 
 /* EVENTS page */
