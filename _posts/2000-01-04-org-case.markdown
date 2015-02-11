@@ -1,15 +1,21 @@
 ---
 type: org
-issue: Philanthropy
+layout: project
 org: Case Foundation
 img: case.jpg
 website: ['http://www.casefoundation.org']
-project: "The Giving Graph - grassroots philanthropy meets social networks"
+project: "The Giving Graph - Grassroots philanthropy meets social networks"
+description: http://dssg.uchicago.edu/2000/01/04/org-case.html
+blog-post: http://dssg.uchicago.edu/2014/01/28/case-hairball-for-non-profits.html
 wiki: https://github.com/dssg/givinggraph/wiki
 repo: https://github.com/dssg/givinggraph/
 ---
-Every time you log on to Facebook, Spotify, or Amazon, these tech companies are building a network of who you know and what you like. They use this “social graph” to connect you to new people and products. Retailers and marketers are beginning to use it to target ads. What if the social sector could use this graph to connect people to the causes they are passionate about?
+<p>Every time you log on to Facebook, Spotify, or Amazon, these tech companies are building a network of who you know and what you like. They use this “social graph” to connect you to new people and products. Retailers and marketers are beginning to use it to target ads. What if the social sector could use this graph to connect people to the causes they are passionate about?
  
-The Case Foundation’s [Giving Graph](http://thegivinggraph.org/) would be a new layer on the websites you already use that would make giving, volunteering, and advocating for causes a seamless part of your online social life. The idea is to give organizations working for good the same edge as companies trying to sell you stuff. 
+<p>The Case Foundation’s <a href="http://thegivinggraph.org/">Giving Graph</a> would be a new layer on the websites you already use that would make giving, volunteering, and advocating for causes a seamless part of your online social life. The idea is to give organizations working for good the same edge as companies trying to sell you stuff. 
 
-To test this idea, we’re building a proof of concept system for the [Case Foundation](http://www.casefoundation.org), a philanthropy that promotes everyday giving and civic engagement.
+<p>To test this idea, we’re building a proof of concept system for the <a href="http://www.casefoundation.org">Case Foundation</a>, a philanthropy that promotes everyday giving and civic engagement.
+
+<p><b>Mentor:</b> Aron Culotta
+
+<p><b>Fellows:</b> John Brock, Giorgio Cavaggion, Kyla Cheung, Ahmad Qamar

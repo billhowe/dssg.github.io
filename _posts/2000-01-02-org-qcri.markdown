@@ -1,17 +1,24 @@
 ---
 type: org
+layout: project
 org: Qatar Computing Research Institute
 slug: qcri
 img: qcri.png
 website: ['http://www.qcri.com']
 project: Measuring disaster damage with tweets
+description: http://dssg.uchicago.edu/2000/01/02/org-qcri.html
+blog-post: http://dssg.uchicago.edu/2013/12/13/qcri-twitter-relief.html
 wiki: https://github.com/dssg/tweedr/wiki
 repo: https://github.com/dssg/tweedr/
 ---
-In our connected world, information about natural disasters and other emergencies often appears on social media faster than on traditional channels. But gleaning useful knowledge from this flood of tweets and status updates is tough. We need better methods to find the needles in this haystack of unstructured text.
+<p>In our connected world, information about natural disasters and other emergencies often appears on social media faster than on traditional channels. But gleaning useful knowledge from this flood of tweets and status updates is tough. We need better methods to find the needles in this haystack of unstructured text.
 
-This experimental project aims to answer a difficult question: how well can social media be used to detect the damage wrought by natural disasters?
+<p>This experimental project aims to answer a difficult question: how well can social media be used to detect the damage wrought by natural disasters?
 
-We’ll attempt to correlate tweets about infrastructure damage or human casualties during Hurricane Sandy (and other recent disasters) with hard data about where and when destruction actually took place. The goal is to explore to what extent social media might allow earlier and cheaper damage assessment, and faster and better targeted disaster response.
+<p>We’ll attempt to correlate tweets about infrastructure damage or human casualties during Hurricane Sandy (and other recent disasters) with hard data about where and when destruction actually took place. The goal is to explore to what extent social media might allow earlier and cheaper damage assessment, and faster and better targeted disaster response.
  
-This work is part of the Qatar Computing Research Institute’s [Artificial Intelligence for Disaster Response](http://irevolution.net/2013/02/11/update-twitter-dashboard/) project, which will help the United Nations, the Red Cross, and other emergency responders glean actionable information from social media. We’re collaborating with [QCRI](http://www.qcri.com)'s Social Innovation initiative, whose mission is to tackle large-scale computing challenges that have positive social impact in the Gulf region and beyond.
+<p>This work is part of the Qatar Computing Research Institute’s <a href="http://irevolution.net/2013/02/11/update-twitter-dashboard/">Artificial Intelligence for Disaster Response</a> project, which will help the United Nations, the Red Cross, and other emergency responders glean actionable information from social media. We’re collaborating with the <a href="http://www.qcri.com">QCRI</a> Social Innovation initiative, whose mission is to tackle large-scale computing challenges that have positive social impact in the Gulf region and beyond.
+
+<p><b>Mentor:</b> Aron Culotta
+
+<p><b>Fellows:</b> Zahra Ashktorab, Christopher Brown, Manojit Nandi

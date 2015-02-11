@@ -1,23 +1,28 @@
 ---
 type: org
-issue: Transportation
+layout: project
 org: City of Chicago Dept. of Transportation
 slug: divvy
 img: ['cdot.jpg', 'divvy.jpg']
 website: ['http://www.cityofchicago.org/city/en/depts/cdot.html', 'http://divvybikes.com/']
 project: Predicting when Divvy bike share stations will be empty or full
-blog-post: http://dssg.io/2013/08/09/divvy-helping-chicagos-new-bike-share.html
+description: http://dssg.uchicago.edu/2000/01/14/org-divvy.html
+blog-post: http://dssg.uchicago.edu/2014/01/23/divvy-crystal-ball-rebalancing.html
 wiki: https://github.com/dssg/bikeshare/wiki
 repo: https://github.com/dssg/bikeshare/
 ---
-The City of Chicago just launched Divvy, a new bike share system designed to connect people to transit, and to make short one-way trips across town easy. Bike share is citywide bike rental - you can take a bike out at a station on one street corner and drop it off at another. 
+<p>The City of Chicago just launched Divvy, a new bike share system designed to connect people to transit, and to make short one-way trips across town easy. Bike share is citywide bike rental - you can take a bike out at a station on one street corner and drop it off at another. 
 
-Popular in Europe and Asia, bike share has landed in the United States: Boston, DC, and New York launched systems in the past few years, San Francisco and Seattle are next.
+<p>Popular in Europe and Asia, bike share has landed in the United States: Boston, DC, and New York launched systems in the past few years, San Francisco and Seattle are next.
 
-These systems share a central flaw, however: because of commuting patterns, bikes tend to pile up downtown in morning and on the outskirts in the afternoon. This imbalance can make using bikeshare difficult, because people can't take out bikes from empty stations, or finish their rides at full stations.
+<p>These systems share a central flaw, however: because of commuting patterns, bikes tend to pile up downtown in morning and on the outskirts in the afternoon. This imbalance can make using bikeshare difficult, because people can't take out bikes from empty stations, or finish their rides at full stations.
 
-To prevent this problem, bikeshare operators drive trucks around to reallocate bikes from full stations to empty ones. But they can only see the current number of bikes at each station - not how many will be there in an hour or two. 
+<p>To prevent this problem, bikeshare operators drive trucks around to reallocate bikes from full stations to empty ones. But they can only see the current number of bikes at each station - not how many will be there in an hour or two. 
 
-We're working with the City of Chicago's Department of Transportation to change this: by analyzing weather and bikeshare station trends, we'll predict how many bikes are likely to be at each Divvy station in the future. 
+<p>We're working with the City of Chicago's Department of Transportation to change this: by analyzing weather and bikeshare station trends, we'll predict how many bikes are likely to be at each Divvy station in the future. 
 
-By using predictive analytics, Divvy staff will be able to rebalance bikes proactively across the system, ensuring there's always a bike there when you need it - and making bike share a first-class mode of transportation in Chicago and beyond.
+<p>By using predictive analytics, Divvy staff will be able to rebalance bikes proactively across the system, ensuring there's always a bike there when you need it - and making bike share a first-class mode of transportation in Chicago and beyond.
+
+<p><b>Mentor:</b> Juan-Pablo Velez
+
+<p><b>Fellows:</b> Walter Dempsey, Adam Fishman, Jette Henderson, Breanna Miller, Vidhur Vohra
