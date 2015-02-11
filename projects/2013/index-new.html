@@ -1,0 +1,51 @@
+---
+layout: default
+published: true
+---
+
+<div class="container">
+
+  <h2 class="page-title">
+    2013 Projects
+    <hr>
+  </h2>	
+  <p>
+  	During the program, our fellows work on data science projects in healthcare, education, energy, transportation, and more.
+  </p>
+   <p> 
+  	Our program is intensive and hands-on. Fellows work with <strong>nonprofits</strong>, <strong>local governments</strong>, and <strong>federal agencies</strong>, learning about what they do and tackling data problems they face.
+  </p>
+  <p>
+  	We're strong believers in open knowledge and open source. We blog extensively about our projects, and make much of our research and code open to everyone.
+  </p>
+  <p>
+  You can find our 2014 projects <a href="/projects/2014">here</a>.
+  </p>
+
+
+    <div id="projects" class="row spacer">
+
+     <!-- Iterate through projects and display info -->
+  {% for post in site.posts %}
+    {% if post.type == 'org' %}   
+    <div class="span3 projectbox">
+      <a href="{{ post.description }}"><h3 style="font-size: 20px; margin-bottom: 16px;">{{ post.project }}</h3></a>
+    <p>
+
+      {% for img in post.img %}
+              <!-- Fetch the right image link as you loop through partner logos -->
+              <a href="{{ post.website[forloop.index0] }}">            
+              <img src="/img/partners/{{ img }}" width=200px>
+              </a>
+            {% endfor %}
+    
+
+
+    </div>    
+    {% endif %}
+    {% endfor %}
+  </div>
+
+
+
+</div>
