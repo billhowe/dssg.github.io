@@ -11,7 +11,8 @@ layout: default
         {% endif %}
 
         <!-- Project title -->
-        <h3 id="{{ page.slug }}" class="project-title">
+    <div class="project-title">
+        <h3 id="{{ page.slug }}" >
 
           
 
@@ -19,26 +20,18 @@ layout: default
           {{ page.project }}
 
         </h3>
-
+    </div>
         <!-- Partner logos -->
-        <div class="span4" class="project-logo">
+        <div class="span4">
+        	<div class="project-logo">
             {% for img in page.img %}
               <!-- Fetch the right image link as you loop through partner logos -->
               <a href="{{ page.website[forloop.index0] }}">            
               <img src="/img/partners/{{ img }}">
               </a>
             {% endfor %}
-        </div>
-
-        <!-- Project description -->
-        <div class="span8">
-
-          <!-- Blurb -->
-          <div class="project-blurb">
-          {{ page.content }}
-      	  </div>
-
-          <!-- Blog post, doc, code -->
+        
+            <!-- Blog post, doc, code -->
           {% if page.blog-post %}
             <a href="{{ page.blog-post }}" class="btn btn-huge btn-danger btn-block btn-embossed">
               Blog post: overview of problem and solution</a>
@@ -50,6 +43,19 @@ layout: default
             <a href="{{ page.repo }}" class="btn btn-huge btn-info btn-block btn-embossed">
               Code: open source code on Github</a>
           {% endif %}
+      		</div>
+
+        </div>
+
+        <!-- Project description -->
+        <div class="span8">
+
+          <!-- Blurb -->
+          <div class="project-blurb">
+          {{ page.content }}
+      	  </div>
+
+          
         </div>
 
 

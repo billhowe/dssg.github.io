@@ -328,11 +328,15 @@ li {
         margin-right: auto;
 }
 
-#project-page img {
+.project-logo {
         margin-bottom: 30px;
         display: block;
         margin-right: auto;
-        margin-left: 20px;
+        margin-left: 50px;
+}
+
+.project-logo img {
+        margin-bottom: 50px;
 }
 
 .project-blurb {
