@@ -35,6 +35,9 @@ layout: default
           {% if page.wiki %}
             <a href="{{ page.wiki }}" class="btn btn-huge btn-success btn-block btn-embossed">
               Report: in-depth, technical documentation</a>
+             {% endif %}
+
+           {% if page.repo %}  
             <a href="{{ page.repo }}" class="btn btn-huge btn-info btn-block btn-embossed">
               Code: open source code on Github</a>
           {% endif %}

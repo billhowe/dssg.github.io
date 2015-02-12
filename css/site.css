@@ -11,10 +11,15 @@ background-color: #FFFFFF;
 border: 2px solid #CCC9C9;
 font-size: 16px;
 line-height: 1.53875em;
+text-align: center;
 -webkit-border-radius: 6px;
 -moz-border-radius: 6px;
 border-radius: 2px;
-height: 300px;
+height: 400px;
+}
+
+.projectbox img {
+    width=200px;
 }
 
 

@@ -28,14 +28,14 @@ published: true
      <!-- Iterate through projects and display info -->
   {% for post in site.posts %}
     {% if post.type == 'org' %}   
-    <div class="span3 projectbox">
-      <a href="{{ post.description }}"><h3 style="font-size: 20px; margin-bottom: 16px;">{{ post.project }}</h3></a>
+    <div class="span2 projectbox">
+      <a href="{{ post.description }}"><h3 style="font-size: 20px; margin-bottom: 16px;">{{ post.project }}</h3>
     <p>
 
       {% for img in post.img %}
               <!-- Fetch the right image link as you loop through partner logos -->
-              <a href="{{ post.website[forloop.index0] }}">            
-              <img src="/img/partners/{{ img }}" width=200px>
+                        
+              <img src="/img/partners/{{ img }}" width=150px>
               </a>
             {% endfor %}
     

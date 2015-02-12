@@ -1,19 +1,20 @@
 ---
 type: org14
+layout: project
 org: Nurse-Family Partnership
 slug: nfp
 img: nfp.jpg
 website: ['http://www.nursefamilypartnership.org/']
 project: Predicting Success in Mother-Child Interventions
-description: http://dssg.uchicago.edu/projects/2014/#nfp
+description: http://dssg.uchicago.edu/2000/02/07/org-nfp.html
 blog-post: http://dssg.uchicago.edu/2014/08/27/nfp-undefinable-unmeasurable.html
 ---
 
-Young, low-income, first-time mothers and their babies often face dramatically increased risks to their health, education, and economic self-sufficiency. **Nurse-Family Partnership (NFP)**, a national nonprofit organization, intervenes by pairing these mothers with specially-trained, registered nurses. Expectant mothers receive regular home visits from pregnancy until the baby is two years old. The result: healthier pregnancies, more stable families, and better developmental outcomes for children.
+<p>Young, low-income, first-time mothers and their babies often face dramatically increased risks to their health, education, and economic self-sufficiency. **Nurse-Family Partnership (NFP)**, a national nonprofit organization, intervenes by pairing these mothers with specially-trained, registered nurses. Expectant mothers receive regular home visits from pregnancy until the baby is two years old. The result: healthier pregnancies, more stable families, and better developmental outcomes for children.
 
-NFP’s approach is based on decades of research, and <a href="http://dssg.uchicago.edu/2013/07/31/the-match-game.html">last year</a> DSSG fellows helped NFP quantify its impact by combining its data with national demographic data to assess how nurse visits affect measures of early childhood development such as immunization and breastfeeding rates. Some local NFP agencies currently face greater demand than they can meet. With our models, we seek to identify mothers who will benefit the most from NFP’s programs and the most impactful timing of nurse visits. We hope to help NFP better understand their target population and personalize their services based on each mother’s needs.
+<p>NFP’s approach is based on decades of research, and <a href="http://dssg.uchicago.edu/2013/07/31/the-match-game.html">last year</a> DSSG fellows helped NFP quantify its impact by combining its data with national demographic data to assess how nurse visits affect measures of early childhood development such as immunization and breastfeeding rates. Some local NFP agencies currently face greater demand than they can meet. With our models, we seek to identify mothers who will benefit the most from NFP’s programs and the most impactful timing of nurse visits. We hope to help NFP better understand their target population and personalize their services based on each mother’s needs.
 
-**Mentor**: Young-Jin Kim
+<p><b>Mentor:</b> Young-Jin Kim
 
-**Fellows**: Sarah Abraham, Jeff Lockhart, Sarah Tan, Rafael Turner 
+<p><b>Fellows:</b> Sarah Abraham, Jeff Lockhart, Sarah Tan, Rafael Turner 
  

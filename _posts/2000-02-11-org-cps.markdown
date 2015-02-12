@@ -1,19 +1,20 @@
 ---
 type: org14
+layout: project
 org: Chicago Public Schools
 slug: cps
 img: cps.png
 website: ['http://www.cps.edu']
 project: Student Enrollment Prediction for Budget Allocation
-description: http://dssg.uchicago.edu/projects/2014/#cps 
+description: http://dssg.uchicago.edu/2000/02/11/org-cps.html
 blog-post: http://dssg.uchicago.edu/2014/07/23/cps-enrollment-prediction.html
 repo: https://github.com/dssg/predicting_student_enrollment_public
 ---
 
-Each spring, **Chicago Public Schools** allocates $1.8 billion to the hundreds of public schools in its system. To determine where to distribute that money, CPS must predict next year’s enrollment for each school months ahead of time, then adjust budgets two to three weeks into the school year when the actual enrollment numbers are set. Large discrepancies between projected enrollment and the real numbers lead to large adjustments in funding, which can disrupt teachers and students.
+<p>Each spring, Chicago Public Schools allocates $1.8 billion to the hundreds of public schools in its system. To determine where to distribute that money, CPS must predict next year’s enrollment for each school months ahead of time, then adjust budgets two to three weeks into the school year when the actual enrollment numbers are set. Large discrepancies between projected enrollment and the real numbers lead to large adjustments in funding, which can disrupt teachers and students.
 
-We’re working with CPS to develop a better model that more accurately predicts next year’s enrollment for each school in the system. The project team will work with data from CPS on student, school, and staff attributes, as well as other data sources (including publicly available crime data, housing data, and economic development data) to develop a frequently-updating model that will lower the amount of money shuffled each school year, and reduce the number of schools that face major re-allocations of funding.
+<p>We’re working with CPS to develop a better model that more accurately predicts next year’s enrollment for each school in the system. The project team will work with data from CPS on student, school, and staff attributes, as well as other data sources (including publicly available crime data, housing data, and economic development data) to develop a frequently-updating model that will lower the amount of money shuffled each school year, and reduce the number of schools that face major re-allocations of funding.
 
-**Mentor**: Joe Walsh
+<p><b>Mentor:</b> Joe Walsh
 
-**Fellows**: Vanessa Ko, Andrew Landgraf, Tracy Schifeling, Zhou Ye
+<p><b>Fellows:</b> Vanessa Ko, Andrew Landgraf, Tracy Schifeling, Zhou Ye
