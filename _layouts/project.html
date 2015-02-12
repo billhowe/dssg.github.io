@@ -37,11 +37,21 @@ layout: default
               Report: in-depth, technical documentation</a>
              {% endif %}
 
-           {% if page.repo %}  
+          {% if page.repo %}  
             <a href="{{ page.repo }}" class="btn btn-huge btn-info btn-block btn-embossed">
               Code: open source code on Github</a>
           {% endif %}
-      		</div>
+      		
+      	  {% if page.data %}
+            <a href="{{ page.data }}" class="btn btn-huge btn-warning btn-block btn-embossed">
+              Data: open dataset for download</a>
+          {% endif %}
+
+      	  {% if page.demo %}
+             <a href="{{ page.demo }}" class="btn btn-huge btn-primary btn-block btn-embossed">
+              Demo: interactive application from project</a>
+           {% endif %}
+       	  </div>
 
         </div>
 
