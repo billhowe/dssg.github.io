@@ -12,6 +12,7 @@ description: http://dssg.uchicago.edu/2000/01/06/org-northshore.html
 blog-post: http://dssg.uchicago.edu/2013/12/06/northshore-obesity.html
 wiki: https://github.com/dssg/growth-curves/wiki
 repo: https://github.com/dssg/growth-curves/
+paper: http://dssg.uchicago.edu/papers/Northshore_cardiac.pdf
 ---
 
 <p>Electronic medical records (EMR) promise to transform our understanding of patients’ ailments and improve their care. <a href="http://www.northshore.org/">NorthShore University HealthSystem</a> in suburban Chicago has been a national leader in the implementation of EMR systems for the past decade. It is the first healthcare provider to be awarded the highest level of EMR deployment for both inpatient and outpatient care. This remarkable effort has generated much anonymized data available for innovative analytics research.

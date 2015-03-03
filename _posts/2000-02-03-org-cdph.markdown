@@ -8,6 +8,7 @@ website: ['http://www.cityofchicago.org/city/en/depts/cdph.html']
 description: http://dssg.uchicago.edu/2000/02/03/org-cdph.html
 blog-post: http://dssg.uchicago.edu/2014/11/24/second-video.html
 project: Targeting Proactive Public Health Inspections
+paper: http://dssg.uchicago.edu/papers/CDPH_lead.pdf
 ---
 
 <p>Lead paint and leaded gasoline were banned in the United States in the 1970s because of the enormous public health dangers lead poses. In the decades since, it has become clear that even small amounts of exposure to lead during childhood can cause behavior or attention problems, learning difficulties, speech and language problems, reduced IQ and failure at school. 
