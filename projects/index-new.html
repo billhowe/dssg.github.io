@@ -6,7 +6,7 @@ published: true
 <div class="container">
 
   <h2 class="page-title">
-    2014 Projects
+    Past Projects
     <hr>
   </h2>	
   <p>
@@ -18,10 +18,8 @@ published: true
   <p>
   	We're strong believers in open knowledge and open source. We blog extensively about our projects, and make much of our research and code open to everyone.
   </p>
-  <p>
-  You can find our 2013 projects <a href="/projects/2013">here</a>.
-  </p>
 
+  <p><h2>2014 Projects</h2></p>
 
     <div id="projects" class="row spacer">
 
@@ -45,6 +43,29 @@ published: true
     {% endfor %}
   </div>
 
+  <p><h2>2013 Projects</h2></p>
 
+  <div id="projects" class="row spacer">
+
+     <!-- Iterate through projects and display info -->
+  {% for post in site.posts %}
+    {% if post.type == 'org' %}   
+    <div class="span2 projectbox">
+      <a href="{{ post.description }}"><h3 style="font-size: 20px; margin-bottom: 16px;">{{ post.project }}</h3>
+    <p>
+
+      {% for img in post.img %}
+              <!-- Fetch the right image link as you loop through partner logos -->
+                        
+              <img src="/img/partners/{{ img }}" width=150px>
+              </a>
+            {% endfor %}
+    
+
+
+    </div>    
+    {% endif %}
+    {% endfor %}
+  </div>
 
 </div>
