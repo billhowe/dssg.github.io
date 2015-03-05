@@ -1,13 +1,13 @@
 ---
 type: org14
 layout: project
-org: Chicago Department of Public Health
+org: ['Chicago Department of Public Health']
 slug: cdph
-img: cdph.png
+img: [cdph.png]
 website: ['http://www.cityofchicago.org/city/en/depts/cdph.html']
-description: http://dssg.uchicago.edu/2000/02/03/org-cdph.html
-blog-post: http://dssg.uchicago.edu/2014/11/24/second-video.html
 project: Targeting Proactive Public Health Inspections
+description: ['http://dssg.uchicago.edu/2000/02/03/org-cdph.html']
+blog-post: ['http://dssg.uchicago.edu/2014/11/24/second-video.html']
 paper: http://dssg.uchicago.edu/papers/CDPH_lead.pdf
 ---
 
