@@ -14,7 +14,7 @@ So are people’s perceptions related to other more common measures of academic 
 
 <img src="/img/posts/nycschools1.png">
 
-One might expect that Academic Expectation scores would be the most closely correlated to test scores. But what I found was rather surprising: Safety and Respect scores, are actually more highly correlated with test scores than Academic Expectations scores are. In other words, the more safe and respectful a school feels in New York City, the higher its test scores will be on average.   
+One might expect that Academic Expectation scores would be the most closely correlated to test scores. But what I found was rather surprising: Safety and Respect scores are actually more highly correlated with test scores than Academic Expectations scores are. In other words, the more safe and respectful a school feels in New York City, the higher its test scores will be on average.   
 
 This takeaway was revealing, since Safety and Respect might seem more attenuated from academic performance than Academic Expectations.  Yet for all three groups surveyed -- parents, students and teachers -- the correlation between test scores and safety was stronger than how “academic” a school feels. This relationship also held true both for elementary school state tests and high school SAT scores.    
 
