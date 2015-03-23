@@ -4,7 +4,7 @@ title: "Import: Safe Hallways, Successful Tests"
 author: Ben Wellington
 ---
 
-<i>Import is a new series of guest posts from friends, colleagues, and collaborators in the data science for social good community. This post is by <a href="https://about.me/benwellington">Ben Wellington</a>, who writes the open data blog <a href="http://iquantny.tumblr.com/">I Quant NYC</a></i>
+<i>Import is a new series of guest posts from friends, colleagues, and collaborators in the data science for social good community. This post is by <a href="https://about.me/benwellington">Ben Wellington</a>, who writes the open data blog <a href="http://iquantny.tumblr.com/">I Quant NY</a></i>
 
 Every year, New York City public schools conduct an in-depth survey of their parents, students and teachers. According to the Department of Education, the survey, one of the largest of any kind in the nation, “helps school leaders understand what key members of the school community say about the learning environment at each school.” 
 
