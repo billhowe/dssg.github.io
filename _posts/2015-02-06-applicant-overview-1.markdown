@@ -1,6 +1,6 @@
 ---
 layout: post
-type: ww
+type: news
 title: "Data Science For Social Good 2015 Applicants: Chapter 1"
 author: Rayid Ghani
 published: true
