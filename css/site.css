@@ -304,6 +304,7 @@ li {
         display: block;
         margin: 5px auto;
         font-size: 25px;
+        text-align: center;
 }
 
 .people .icons a {
