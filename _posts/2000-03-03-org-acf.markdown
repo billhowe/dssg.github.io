@@ -1,0 +1,20 @@
+---
+type: org15
+layout: project
+org: ['Australian Conservation Foundation']
+slug: australia
+img: [acf.png]
+website: ['http://www.acfonline.org.au/']
+project: Data-Driven Digital Engagement for Environmental Causes
+description: http://dssg.uchicago.edu/2000/03/03/org-acf.html
+---
+
+<p>The Australian Conservation Foundation (ACF) is an environmental organisation. Through their engagement channels, they mobilize tens of thousands of individuals through volunteering, donating or advocating for a healthy and thriving natural environment. To further engage their audience, the ACF seeks to use data for a deeper understanding of their community and for creating more effective communications.</p>
+                                                                                                                                                                                
+<p>With demographic and historical data on ACF’s outreach and how successfully those efforts produced clicks, donations, and online signups, DSSG will generate new insights and approaches to reach and inspire ACF’s audience. The team will build engagement models that predict which individuals are likely to take particular actions and the best way to communicate with those people. We will use those models to design experiments ACF can immediately run during the summer, generating new data to generate further successful strategies for supporting and protecting Australia's environment.</p>
+
+<p><b>Mentor:</b> Olfa Nasraoui
+
+<p><b>Project Manager:</b> Lauren Haynes
+
+<p><b>Fellows:</b> Tania Melo, Mahdi Moqri, Elizabeth Silver, Thomas Tibbett
