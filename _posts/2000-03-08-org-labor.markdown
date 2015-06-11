@@ -1,0 +1,18 @@
+---
+type: org15
+layout: project
+org: ['Department of Labor']
+slug: labor
+img: [labor.png]
+website: 
+project: Improving Local Labor Market Matching Using High Frequency Resume and Jobs Data
+description: http://dssg.uchicago.edu/2000/03/08/org-labor.html
+---
+
+More information coming soon. 
+
+<p><b>Mentor:</b> Matt Gee
+
+<p><b>Project Manager:</b> Alan Fritzler
+
+<p><b>Fellows:</b> Avinash Ahuja, Jason Huang, Ryan Kappedal, Mario Karlovcec

@@ -1,0 +1,18 @@
+---
+type: org15
+layout: project
+org: ['epic']
+slug: epic
+img: [epic.png]
+website: 
+project: Predictive Enforcement of Pollution and Hazardous Waste Violations
+description: http://dssg.uchicago.edu/2000/03/11/org-epic.html
+---
+
+More information coming soon. 
+
+<p><b>Mentor:</b> Eric Rozier
+
+<p><b>Project Manager:</b> Paul van der Boor
+
+<p><b>Fellows:</b> Benjamin Brew, Jennifer Helsby, Jane Zanzig, Asif Zubair
