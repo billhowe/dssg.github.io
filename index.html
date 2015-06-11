@@ -59,7 +59,8 @@ layout: default
         <h3>News</h3>
         <hr>
         <p>Read our <a href="/blog">blog</a> to follow the fellowship and learn about our projects.
-        {% for post in site.posts.tags.news limit:5 %}
+        {% for post in site.posts limit:8 %}
+        {% unless post.type == 'event' %}
           
             <article>
               <h4 class="post-title"><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h4>
