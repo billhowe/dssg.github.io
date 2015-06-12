@@ -6,7 +6,7 @@ slug: graduation
 img: ['wakecounty.png', 'arlington.gif']
 website: 
 project: Identifying High School Students Who May Not Graduate on Time
-description: http://dssg.uchicago.edu/2000/03/06/org-graduation.html
+description: http://dssg.uchicago.edu/2000/03/06/org-graduates.html
 ---
 
 <p>Nearly 700,000 students don’t finish high school each year. To help more students graduate on time, school districts across the country use intervention programs to help struggling students get back on track academically. Yet in order to best apply those programs, schools need to identify off-track students as early as possible and enroll them in the most appropriate intervention. Some forward-looking school districts, such as the Wake County Public School System in North Carolina and the Arlington Public School District in Virginia, are exploring data-driven “early warning systems” that can help schools find students in need of extra support.</p>
