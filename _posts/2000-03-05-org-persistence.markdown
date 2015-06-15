@@ -3,10 +3,10 @@ type: org15
 layout: project
 org: ['Charter Schools']
 slug: persistence
-img: ['noble.jpg', 'kipp.jpg', 'perspectives.jpg']
+img: ['noble.jpg', 'perspectives.jpg']
 website: 
 project: Early Warning System for Predicting College Persistence among High School Students
-description: http://dssg.uchicago.edu/2000/03/04/org-persistence.html
+description: http://dssg.uchicago.edu/2000/03/05/org-persistence.html
 ---
 
 More information coming soon. 
