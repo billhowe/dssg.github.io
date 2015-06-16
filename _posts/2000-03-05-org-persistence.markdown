@@ -3,7 +3,7 @@ type: org15
 layout: project
 org: ['Charter Schools']
 slug: persistence
-img: ['noble.jpg', 'kippnj.jpg', 'kippchi.png']
+img: ['noble.jpg', 'kippnj.jpg', 'kippchi.png', 'perspectives.jpg']
 website: 
 project: Predicting College Persistence among High School Students
 description: http://dssg.uchicago.edu/2000/03/05/org-persistence.html
