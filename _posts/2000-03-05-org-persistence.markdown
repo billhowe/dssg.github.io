@@ -5,7 +5,7 @@ org: ['Charter Schools']
 slug: persistence
 img: ['noble.jpg', 'kippnj.jpg', 'kippchi.png']
 website: 
-project: Early Warning System for Predicting College Persistence among High School Students
+project: Predicting College Persistence among High School Students
 description: http://dssg.uchicago.edu/2000/03/05/org-persistence.html
 ---
 
