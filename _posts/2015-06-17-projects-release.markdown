@@ -31,7 +31,7 @@ Each summer, the [Data Science for Social Good (DSSG) fellowship](http://dssg.uc
 
 - Another team will build a model for the City of Cincinnati that [proactively anticipates building code violations](http://dssg.uchicago.edu/2000/03/04/org-cincinnati.html) so that officials can conduct more effective inspections and rehabilitation programs. 
 
-- Another project will construct a rich, new data source addressing the “skills gap” -- identifying in-demand job skills that can shape local training campaigns for the unemployed and students entering the workforce.</li>
+- Another project will construct a rich, new data source addressing the “skills gap” -- identifying in-demand job skills that can shape local training campaigns for the unemployed and students entering the workforce.
 
 
 <b>Environment & Conservation</b>
