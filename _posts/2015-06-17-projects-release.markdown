@@ -27,7 +27,7 @@ Each summer, the [Data Science for Social Good (DSSG) fellowship](http://dssg.uc
 
 <b>Economic Development</b>
 
-- By [identifying important factors that increase the risk of home ](http://dssg.uchicago.edu/2000/03/02/org-infonavit.html), DSSG will help Infonavit, Mexico’s largest mortgage provider, provide services and support policy changes that help low-income homeowners.
+- By [identifying important factors that increase the risk of home abandonment](http://dssg.uchicago.edu/2000/03/02/org-infonavit.html), DSSG will help Infonavit, Mexico’s largest mortgage provider, provide services and support policy changes that help low-income homeowners.
 
 - Another team will build a model for the City of Cincinnati that [proactively anticipates building code violations](http://dssg.uchicago.edu/2000/03/04/org-cincinnati.html) so that officials can conduct more effective inspections and rehabilitation programs. 
 
