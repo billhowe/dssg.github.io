@@ -17,4 +17,4 @@ description: http://dssg.uchicago.edu/2000/03/04/org-cincinnati.html
 
 <p><b>Project Manager:</b> Paul van der Boor
 
-<p><b>Fellows:</b> Amy Hepner, Talia Kaufmann, Katharina Rasch
+<p><b>Fellows:</b> Jennifer Helsby, Talia Kaufmann, Katharina Rasch
