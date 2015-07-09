@@ -1,0 +1,40 @@
+---
+layout: post
+title: "Sunlight Project: Finding Legislative Plagarism"
+author: Eugenia Giraudy & Joe Walsh
+---
+
+<img src="/img/posts/sunlight15-team.png">
+
+In 2005, Florida implemented a new "Stand Your Ground" law, which legally protected the use of deadly force in self-defense. The law, which removes the "duty to retreat" when a person is threatened with serious bodily harm, gained national attention after George Zimmerman fatally shot Trayvon Martin in 2012. 
+
+Soon after its passage in Florida, Stand Your Ground laws went "viral," spreading to other parts of the country. Currently, [at least two dozen states](https://sunlightfoundation.com/blog/2012/03/28/10-states-copied-floridas-stand-your-ground-law/) have implemented a version of Florida's legislation. These laws didn’t arise in response to broad, spontaneous popular demand. Interest groups, in particular the National Rifle Association and the American Legislative Exchange Council (ALEC), drafted [a model bill](http://alecexposed.org/w/images/7/7e/7J2-Castle_Doctrine_Act_Exposed.PDF) to ease passage across the country. Ten states have passed nearly identical bills to the ones Florida used and ALEC promoted (see Figure 1 for identical paragraphs in ALEC's legislative proposal and Michigan's bill). 
+
+<img src="/img/posts/sunlight-similar.png">
+
+This summer, Data Science for Social Good fellows Matt Burgess, Eugenia Giraudy, and Julian Katz-Samuels, technical mentor Joe Walsh, and project manager Lauren Haynes are working with the Sunlight Foundation to automatically detect cases of text reuse in state legislative bills. The goal is to build a computational tool that identifies text reuse far more quickly than a manual, human search. This tool will help journalists, scholars, and advocacy groups shed light on the origins and diffusion of state legislation.
+
+State governments have a central but understudied role for policy making. Each year, states spend [1.5 trillion dollars](http://www.usgovernmentspending.com/) on programs and services for their citizens, and state legislatures pass about [75 times](https://stateinnovation.org/) more bills than Congress. However, state legislators often lack the time, staff, and expertise necessary to draft each bill. [As a consequence](http://scholar.harvard.edu/files/ahertel/files/bizbills_-_draft.pdf), they often rely on legislation written by outside entities, such as interest groups or legislators from other states. 
+
+<img src="/img/posts/sunlight-bills.png">
+
+Legislative text reuse is [not a new phenomenon](http://lawprofessors.typepad.com/legislation_law/2015/05/the-rise-of-the-model-law-as-a-mode-of-governance.html).  For more than 100 years, interest groups have written model legislation to influence the language used in state and federal bills. The first evidence of model legislation dates back to 1910, when the Russell Sage Foundation published [a model tenement house law](https://books.google.com/books?id=vFJHAAAAIAAJ&printsec=frontcover#v=onepage&q&f=false), and to 1912, when the annual meeting of the Association of Life Insurance Presidents included [a report on progress of a model law](https://books.google.com/books?id=0x87AQAAMAAJ&pg=PA116&dq=%22model+law%22&hl=en&sa=X&ei=MqhHVeiFCoqWNouQgLgH&ved=0CEwQ6AEwCA#v=onepage&q=%22model%20law%22&f=false) on the registration of vital statistics.
+
+One member of the DSSG team even has experience with this practice. As an intern in the Michigan House of Representatives in 2004, Joe modified another state's National Nurse's Week resolution and submitted it to his boss, and the House passed [HR 237](http://www.legislature.mi.gov/(S(hqzij0iezvmnlvbfqcpa2lor))/documents/2003-2004/Journal/House/htm/2004-HJ-04-21-032.htm) a few weeks later. Eleven years later, the resolution still resembles the American Nursing Association's [current model resolution](http://nursingworld.org/Content/NNW-Archive/NationalNursesWeek/MediaKit/SampleProclamation.html). 
+
+Despite negative connotations, legislative text reuse has benefits for constituents. As [the Supreme Court has noted](https://www.law.cornell.edu/supremecourt/text/285/262), US states may operate as "laboratories," adopting new policies and seeing what works. If a Connecticut law saved thousands of residents each year, one would likely want Colorado to adopt similar text. In an influential study, political scientist [Craig Volden](http://bama.ua.edu/~sborrell/psc521/policylabs.pdf) found that states are more likely to emulate successful policies than failing policies, especially when those policies lower program costs or are made by the legislature rather than the administrative agency. That's why both conservative and liberal groups do it.
+
+Still, identifying legislative text reuse is difficult. It's hard enough at the federal level, where most reused text comes from previously unsuccessful congressional bills, all the bills are stored in one format, and there are armies of journalists to sort through it all. Finding text reuse at the state level is far more difficult because bills may originate in one of 49 other states, each state stores its bills in a different format, and there are far fewer journalistic resources to cover each state capital.  
+
+Automated text analysis provides useful tools to tackle this problem. In particular, computational tools can be of great help to identify shared language across thousands of bills and laws. This contrasts starkly with previous approaches, which can only focus on [a small number of model bills](http://www.sciencedirect.com/science/article/pii/S0049089X15000216), forcing researchers to pick specific legislation or topics. 
+
+<img src="/img/partners/sunlight.png">
+
+Our partner for this project, the [Sunlight Foundation](http://sunlightfoundation.com/), has worked hard to collect [state legislative texts](http://openstates.org/) in a reasonably standard format, which we can then use to detect legislative text reuse at the state level. The data includes 500,000 bills and 200,000 resolutions, ranging from 2007 to 2015. In addition, we have collected more than 1500 pieces of model legislation, from both conservative and liberal groups.
+
+To detect legislative text reuse we search for short sequences of text that occur both in model legislation and state bills. The algorithms perform too slowly on large sets of text, so we first use a customized search engine that we built using [Elasticsearch](https://www.elastic.co/products/elasticsearch) to limit the number of documents we use for comparison. Sometimes legislators use most of the text but change a word here and there to meet the state's legal needs; to account for this, the algorithm allows for synonyms.
+
+At the end of the summer, the team hopes to create a website where users can search for text reuse in state legislatures. In addition, we will share our methods and algorithms with the world so future users can build on and modify our approach to meet their needs. This tool will not only shed light on state-level politics, but it will also help us better understand the role of interest groups on our governments.
+
+
+
