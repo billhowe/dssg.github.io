@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sunlight Project: Finding Legislative Plagarism"
+title: "Sunlight Project: Finding Legislative Plagiarism"
 author: Eugenia Giraudy & Joe Walsh
 ---
 
