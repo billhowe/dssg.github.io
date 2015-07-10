@@ -3,7 +3,7 @@ type: org15
 layout: project
 org: ['Police']
 slug: police
-img: [whitehouse.png, cmpd.jpg]
+img: [whitehouse.png, cmpd.jpg, ljaf.png]
 website: 
 project: Early Warning Indicators for Adverse Police Interactions 
 description: http://dssg.uchicago.edu/2000/03/09/org-police.html
