@@ -9,7 +9,10 @@ project: Predictive Enforcement of Pollution and Hazardous Waste Violations
 description: http://dssg.uchicago.edu/2000/03/11/org-epic.html
 ---
 
-More information coming soon. 
+<p>Two federal laws regulate the the treatment, storage, and disposal of hazardous waste in the United States: the Resource Conservation and Recovery Act (RCRA) and the Risk Management Plan (RMP). To enforce these regulations, the Environmental Protection Agency (EPA) or state agencies regularly conduct inspections of facilities that handle hazardous materials. Going forward, the EPA wants to conduct more targeted investigations, using historical inspection data to predict the risk of severe violations by companies.</p>
+
+<p>Using EPA data sources on reporting, monitoring, inspection, and enforcement from the RMP and RCRA databases, the DSSG team will develop and evaluate predictive models to identify likely violators. These scoring models will be weighted by various criteria of importance to the EPA, including the potential magnitude of the violations, the environmental and public health impact of violations, and the likely outcome of an enforcement action. As a result, the EPA will be able to rank potential violators, better allocate inspection resources, and maximize the impact of each investigation to keep America’s air and water clean.</p>
+ 
 
 <p><b>Mentor:</b> Eric Rozier
 

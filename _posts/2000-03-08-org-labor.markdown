@@ -9,7 +9,12 @@ project: Improving Local Labor Market Matching Using High Frequency Resume and J
 description: http://dssg.uchicago.edu/2000/03/08/org-labor.html
 ---
 
-More information coming soon. 
+<p>An effective strategy to reduce unemployment is to fill “skills gaps,” where the available jobs for a given occupation exceeds the supply of qualified workers. To monitor these types of labor market dynamics, the U.S. Department of Labor maintains <a href="https://www.onetonline.org/">the Occupational Information Network, or O*NET</a>, a public resource used by government agencies, nonprofit workforce development organizations, and private industry. However, this national dataset does not meet the needs of local stakeholders who want to identify the skills gaps in their region, in order to design policy and act to improve local job markets.</p>
+
+<p>To address this need, DSSG will develop a pilot of the Real-time Business Indicators and Labor Dynamics Database (ReBUILDD). This resource will combine federal, local, private, and public business and labor market datasets from a variety of stakeholders to create publicly available, locally relevant, real-time indicators of labor market dynamics.</p>
+
+<p>The team will work in close collaboration with the Department of Labor to ensure that ReBUILDD scales across cities and captures national trends, while also partnering with Chicago nonprofits to better understand the needs of local job training and matching programs. The goal is a resource that can provide real-time local labor market data that helps employers, job-seekers, and educators collaborate to target skills training and match potential employees to jobs.</p>
+
 
 <p><b>Mentor:</b> Matt Gee
 
