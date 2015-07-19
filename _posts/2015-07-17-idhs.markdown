@@ -1,0 +1,48 @@
+---
+layout: post
+title: "IDHS Project: Better Birth Outcomes"
+author: Laura Nolan & Rashida Brown
+---
+
+<img src="/img/posts/idhs-team.png">
+
+An adverse birth can have devastating personal, financial, and even developmental consequences for both mother and child. Individuals born at shorter gestation and lower weight than average have increased risk of heart disease and diabetes. Low birthweight and preterm birth have also been associated with poor non-health outcomes such as lower educational attainment and labor force participation. 
+
+Fortunately, there are a variety of services at both the federal and state level available to at-risk pregnant women. These programs aim to reduce the burden of poor maternal and child health through services such as connecting pregnant women with health care, prenatal education, nutrition, and other assistance. But these programs face a difficult challenge: making sure they can successfully locate the women who would benefit the most from their services.
+
+Our team is working with the [Illinois Department of Human Services (IDHS)](https://www.dhs.state.il.us/page.aspx?) to improve the allocation of resources associated with one of their programs for women at risk of having an adverse birth. Risk of having an adverse birth is associated with stress, socioeconomic status, alcohol, tobacco or drug use, poor nutrition, inadequate healthcare, and maternal age (either very young or very old), among many other factors. The state’s Better Birth Outcomes (BBO) program was designed to help women with multiple risk factors receive more intensive assistance.
+
+Adverse births are typically defined as one, some, or all of the following: early or preterm birth (less than 37 weeks of gestation), low birthweight (less than 2,500 grams), death within the first year of life, pregnancy complications such as gestational diabetes, and infant complications such as fetal distress or infection. On average, Illinois birth outcomes are comparable to the nation as a whole, with 10.3% preterm and 8.3% low birthweight, as compared to the national average of 12.0% and 8.2%, respectively.
+
+These adverse births not only produce significant health and social costs, they are also extremely expensive. The cost of adverse births is three times, on average, that of normal births. Much of this cost is borne by Medicaid -- insurance for low-income individuals, families and children, pregnant women, the elderly, and people with disabilities -- and thus paid for by the state.
+
+<img src="/img/posts/idhs-cost.png">
+<b>Average Cost (USD) of Adverse vs. Normal Births Covered by Medicaid in Illinois (Source: Illinois Department of Healthcare and Family Services)</b>
+
+[WIC, the Special Supplemental Nutrition Program for Women and Children](http://www.fns.usda.gov/wic/women-infants-and-children-wic), is a national program providing supplemental foods, healthcare, referrals, and nutrition education to income-eligible pregnant women. In Illinois, the Department of Human Services provides a program called [Family Case Management (FCM)](https://www.dhs.state.il.us/page.aspx?item=30517) to women determined as at-risk based on an assessment questionnaire. FCM assists women with finding doctors, offers prenatal education, and provides care coordination.
+
+While these services may be sufficient for most women, those with more complicated medical or personal challenges -- due to poverty, chronic health conditions, or disability, for example -- may require additional assistance. For these at-risk women, the state developed the Better Birth Outcomes (BBO) intensive case management program. This more concentrated version of FCM includes prenatal health education, linkages with and coordination of primary and specialty care, and monthly home or clinic visits from a licensed social worker or nurse, among other services. The home visits provide women one-on-one attention from a case worker regarding recent or upcoming doctor’s visits, and recommendations for healthy lifestyle choices during pregnancy. 
+
+IDHS introduced BBO in 2013, and in 2014 (the first full year of enrollment) the program covered slightly more than 2,000 women. Currently, participant identification is done at both the geographic and the individual levels. Before the program debuted in 2013, IDHS used an analysis from a coalition of universities and the Illinois Public Health Association to identify Illinois counties with the highest rates of premature births. BBO was then initially rolled out in 17 of the 102 counties in the state -- those with the highest premature birth rate and Cook County. 
+
+This interactive graphic shows the proportion of births that are premature by county since the beginning of 2013. A similar map, with older data, was used by IDHS to decide where to launch BBO in its first year.
+
+<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 982px; height: 742px;'><noscript><a href='#'><img alt='Sheet 3 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fo&#47;for_blog&#47;Sheet3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='982' height='742' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='for_blog&#47;Sheet3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fo&#47;for_blog&#47;Sheet3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showVizHome' value='no' /><param name='showTabs' value='y' /><param name='bootstrapWhenNotified' value='true' /></object></div>
+
+<br>
+<br>
+Before BBO can be offered to a potential participant, she must be identified as being at sufficiently high risk of suffering an adverse birth. Within counties covered by BBO, IDHS staff developed a risk assessment questionnaire that combined the scientific literature on adverse birth outcomes with their knowledge of the most at-risk FCM clients. The assessment collects information about pregnancy-related risk factors such as housing status, pre-pregnancy BMI, and smoking status using a 17-item questionnaire. Pregnant women deemed at risk of having an adverse birth by the assessment are enrolled in the BBO program.
+
+Our initial conversations revealed two critical areas that require attention: the geographic allocation of resources and the intake assessment tool. First, the BBO counties were selected based only on the rate of preterm births in 2009. Second, at the individual level, the program participation questionnaire weighs all questions equally -- being homeless is equally as "bad" as pre-pregnancy obesity. 
+
+Our team is working with IDHS to update their geographic focus by incorporating more recent neighborhood-level data such as area-level crime and poverty, and expanding the definition of adversity that they use to make resource allocation decisions. Improving the geographic targeting of BBO will assist IDHS to more accurately identify and prioritize target service areas, as well as more efficiently assign BBO clinic caseloads. 
+
+A second contribution our team will make this summer is in improving individual enrollment procedures. We will revise the assessment questionnaire scoring - and possibly content - to more accurately predict at the time of screening whether a pregnant woman will have an adverse birth. These changes will allow case workers to provide BBO services to Illinois women who are most in need of intensive case management. 
+
+For this project, we obtained data from our partners’ database that tracks all participants in state-wide programs -- more than ten years of data for approximately 730,000 births in the state. These data include information on the mother’s prior pregnancy, her interaction with case workers, her health behaviors during pregnancy, and her birth outcomes.  We plan to combine this individual-level information with area-level census data to better understand the context in which poor birth outcomes occur. We will use a variety of statistical, machine learning, and mapping techniques to achieve these ends. 
+
+A preliminary challenge we have encountered is regarding the most informative way in which to recommend IDHS prioritize counties to receive BBO. For example, if the goal is to reduce the total number of adverse births in the state of Illinois, IDHS should concentrate most of their resources in Cook County, where Chicago is located. Alternatively, if the goal is to ensure that no county surpassesses a threshold in the proportion of births that are adverse, IDHS might concentrate resources where the proportion of births that are adverse is high. 
+
+The optimal strategy will likely be some compromise between the two approaches. Our team’s role is to apply an analytical approach to assist IDHS to make these types of decisions. Additionally, we will make our code publicly available and ensure that it is in a format that will make it possible for IDHS to use it for future analyses.
+
+Our recommended revisions to both the geographical focus and the enrollment procedure associated with the BBO program will allow IDHS to more effectively allocate its resources towards the most at-risk pregnant women and significantly improve both maternal and child health in the state.
