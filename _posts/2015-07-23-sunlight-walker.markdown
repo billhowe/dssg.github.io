@@ -49,9 +49,10 @@ The tool provides a list of documents that possibly match, as well as scores tha
 	<li><a href="http://www.nmlegis.gov/Sessions/11%20Regular/bills/senate/SB0222.html">New Mexico</a></li>
 </ul>
 
-The map below shows in red the bills that passed both the lower and upper chambers, and in purple the bills that were introduced but did not pass. The first bill was introduced in 2010 in South Carolina but failed to pass. In 2011, the bill was introduced in 14 states, with 3 of them passing it: Idaho, Kansas, and Oklahoma. In 2012, six states introduced the bill, but only Georgia approved it. In 2013, eight state legislatures introduced the bill, with Kansas, Texas, and Arkansas passing it. Last year, West Virginia passed the bill while five states rejected it. As of today, seven states have similar bills under consideration: Oregon, Montana, Iowa, Illinois, Kentucky, Virginia, and Maryland.
+The map video below shows in red the bills that passed both the lower and upper chambers, and in purple the bills that were introduced but did not pass. The first bill was introduced in 2010 in South Carolina but failed to pass. In 2011, the bill was introduced in 14 states, with 3 of them passing it: Idaho, Kansas, and Oklahoma. In 2012, six states introduced the bill, but only Georgia approved it. In 2013, eight state legislatures introduced the bill, with Kansas, Texas, and Arkansas passing it. Last year, West Virginia passed the bill while five states rejected it. As of today, seven states have similar bills under consideration: Oregon, Montana, Iowa, Illinois, Kentucky, Virginia, and Maryland.
 
-<img src="/img/posts/sunlight-bill-map.jpg">
+<iframe width="800" height="450" src="https://www.youtube.com/embed/SABKCC747AQ?rel=0" frameborder="0" allowfullscreen></iframe>
+<br>
 
 Many pieces of legislation begin on a lobbyist's desk. We are collecting pieces of model legislation so we can trace legislative text back to its source. We have collected more than 1,500 pieces of model legislation, but most of those come from only a handful of lobbying groups. We searched Google for some of the copied text and found the original at [Doctors on Fetal Pain](http://www.doctorsonfetalpain.com/), a website created to promote the view that fetuses can feel pain at 20 weeks. Although it contained significant text reuse with Scott Walker's abortion bill, it was not in our collection of model legislation.
 
