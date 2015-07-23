@@ -4,6 +4,7 @@ layout: project
 org: ['idhs']
 slug: idhs
 img: [idhs.jpg]
+blog-post: http://dssg.uchicago.edu/2015/07/17/idhs.html
 website: ['https://www.dhs.state.il.us/page.aspx?']
 project: Predicting and Reducing Poor Birth Outcomes
 description: http://dssg.uchicago.edu/2000/03/12/org-idhs.html
