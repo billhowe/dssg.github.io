@@ -5,7 +5,7 @@ org: ['Sunlight Foundation']
 slug: sunlight
 img: [sunlight.png]
 website: ['http://sunlightfoundation.com']
-blog-post: http://dssg.uchicago.edu/2015/07/09/sunlight.html
+blog-post: ['http://dssg.uchicago.edu/2015/07/09/sunlight.html','2000-03-01-org-sunlight.markdown']
 project: Tracing Policy Ideas From Lobbyists Through State Legislatures
 description: http://dssg.uchicago.edu/2000/03/01/org-sunlight.html
 ---
