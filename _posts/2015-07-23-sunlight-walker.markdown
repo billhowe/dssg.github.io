@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Text Re-Use in Scott Walker's Abortion Bill"
+title: "Sunlight Project: Text Re-Use in Scott Walker's Abortion Bill"
 author: DSSG Sunlight Team
 ---
 
