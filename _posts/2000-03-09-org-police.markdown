@@ -5,6 +5,7 @@ org: ['Police']
 slug: police
 img: [whitehouse.png, cmpd.jpg, ljaf.gif]
 website: 
+blog-post: http://dssg.uchicago.edu/2015/07/29/police-charlotte.html
 project: Early Warning Indicators for Adverse Police Interactions 
 description: http://dssg.uchicago.edu/2000/03/09/org-police.html
 ---
