@@ -11,7 +11,7 @@ A college education is one of the keys to economic security and prosperity in th
 <img src="/img/posts/persistence-graph.png">
 *Source: Mortenson, Tom. “Bachelor’s Degree Attainment by Age 24 by Family Income Quartiles, 1970 to 2011.” http://www.postsecondary.org.*
 
-Though dropping out of college is a life-changing decision, it often starts with small, preventable events: missing the deadline to request financial aid, or failing to register for the right courses on time. We spent the summer working with four charter networks, the Noble Network of Charter Schools, KIPP Chicago, KIPP New Jersey, and Perspectives Charter Schools, who are well aware of the challenges facing their alumni as they progress through college. 
+Though dropping out of college is a life-changing decision, it often starts with small, preventable events: missing the deadline to request financial aid, or failing to register for the right courses on time. We spent the summer working with four charter networks, the [Noble Network of Charter Schools](http://noblenetwork.org/), [KIPP Chicago](http://www.kippchicago.org/), [KIPP New Jersey](http://kippnj.org/), and [Perspectives Charter Schools](http://www.pcsedu.org/), who are well aware of the challenges facing their alumni as they progress through college. 
 
 Many charter schools support their students through alumni counselors who keep in touch with students, giving them support and practical advice to help them succeed in college. But all schools have limited resources, and counselors cannot be in touch with all students at all times. 
 
