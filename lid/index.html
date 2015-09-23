@@ -71,16 +71,15 @@
                 <hr/>
             </h2>
                 <p class="answer">
-                    Journalists, researchers, and concerned citizens would like to know who’s writing legislative bills, but trying to read those bills, let alone trace their source, is tedious and time consuming. This is especially true at the state and local levels, where arguably more important policy decisions are made every day. 
+                Journalists, researchers, and concerned citizens would like to know who’s writing legislative bills, but trying to read those bills, let alone trace their source, is tedious and time consuming. This is especially true at the state and local levels, where arguably more important policy decisions are made every day. </p>
 
-                    We built the Legislative Influence Detector (LID) to help watchdogs find legislative text re-use. LID searches more than 500,000 state bills (collected by the Sunlight Foundation) and 2,400 pieces of model legislation (collected by us, ALEC Exposed, and other groups) for textual similarities and flags them for review. The user can then investigate the matches. 
+                <p>We built the Legislative Influence Detector (LID) to help watchdogs find legislative text re-use. LID searches more than 500,000 state bills (collected by the Sunlight Foundation) and 2,400 pieces of model legislation (collected by us, ALEC Exposed, and other groups) for textual similarities and flags them for review. The user can then investigate the matches.</p>
 
-                    The screenshot below shows an example. On the left-hand side is text from <a href="http://docs.legis.wisconsin.gov/2015/proposals/sb179">Wisconsin Senate Bill 179</a> (2015), which bans most abortions past the 19th week of pregnancy. On the right-hand side is SB 179's highest-ranked match, <a href="https://legiscan.com/LA/text/SB593/2012">Louisiana Senate Bill 593</a> (2012). The highlighting shows that these sections match almost perfectly. Where differences exist, they are usually numbers versus spelling (e.g. “16” versus “sixteen”) or section identifiers (e.g. “(b)” versus “(9)”).
+                <p>The screenshot below shows an example. On the left-hand side is text from <a href="http://docs.legis.wisconsin.gov/2015/proposals/sb179">Wisconsin Senate Bill 179</a> (2015), which bans most abortions past the 19th week of pregnancy. On the right-hand side is SB 179's highest-ranked match, <a href="https://legiscan.com/LA/text/SB593/2012">Louisiana Senate Bill 593</a> (2012). The highlighting shows that these sections match almost perfectly. Where differences exist, they are usually numbers versus spelling (e.g. “16” versus “sixteen”) or section identifiers (e.g. “(b)” versus “(9)”).</p>
 
-                    <img src="/img/posts/sunlight-reuse.png">
+                <img src="/img/posts/sunlight-reuse.png" align="center">
 
-                    Other tools can help trace policy ideas across state capitols. Many journalists and researchers read bills manually. Others use Google. Inspired by <a href="http://onlinelibrary.wiley.com/doi/10.1111/ajps.12175/abstract">Wilkerson, Smith, and Stramp (2015)</a> and <a href="http://projects.iq.harvard.edu/govposters/file/357876">Hertel-Fernandez and Kashin</a>, LID uses computational tools to quickly scan documents for textual matches.  LID is faster, cheaper, easier, and automatic. It helps watchdogs stretch their limited resources further. 
-                </p>
+                <p>Other tools can help trace policy ideas across state capitols. Many journalists and researchers read bills manually. Others use Google. Inspired by <a href="http://onlinelibrary.wiley.com/doi/10.1111/ajps.12175/abstract">Wilkerson, Smith, and Stramp (2015)</a> and <a href="http://projects.iq.harvard.edu/govposters/file/357876">Hertel-Fernandez and Kashin</a>, LID uses computational tools to quickly scan documents for textual matches.  LID is faster, cheaper, easier, and automatic. It helps watchdogs stretch their limited resources further. </p>
 
 
 
@@ -96,22 +95,20 @@
 
             <h4>How Do I Use the Data?</h4>
                 <p class="answer">
-                    We provide data in two formats: <a href="https://en.wikipedia.org/wiki/Comma-separated_values">comma-separated values</a> (CSV) and <a href="https://en.wikipedia.org/wiki/JSON">JavaScript Object Notation</a> (JSON). 
+                We provide data in two formats: <a href="https://en.wikipedia.org/wiki/Comma-separated_values">comma-separated values</a> (CSV) and <a href="https://en.wikipedia.org/wiki/JSON">JavaScript Object Notation</a> (JSON).</p> 
 
-                    The CSVs provide the documents, matching text, Smith-Waterman alignment score, and alignment section index.
+                <p>The CSVs provide the documents, matching text, Smith-Waterman alignment score, and alignment section index.</p>
 
-                    The JSONs include the same data plus the Lucene score, the start and end of each piece of matched text. These additional pieces of information can be used for visualization.
+                <p>The JSONs include the same data plus the Lucene score, the start and end of each piece of matched text. These additional pieces of information can be used for visualization.</p>
 
-                    The Smith-Waterman score measures the length and quality of the match. The higher the score, the more likely it is the match is good. The user faces a tradeoff: A higher threshold -- above which you assume everything is a good match and everything below is not -- will result in fewer false positives and more false negatives.
+                <p>The Smith-Waterman score measures the length and quality of the match. The higher the score, the more likely it is the match is good. The user faces a tradeoff: A higher threshold -- above which you assume everything is a good match and everything below is not -- will result in fewer false positives and more false negatives.</p>
 
-                    These results are not comprehensive. LID helps establish a lower bound. Lobbyists and legislators can write the same bill using different words to avoid detection. Although LID would not find these examples, it does make re-using text more difficult.  
-                </p>
+                <p>These results are not comprehensive. LID helps establish a lower bound. Lobbyists and legislators can write the same bill using different words to avoid detection. Although LID would not find these examples, it does make re-using text more difficult.</p>
 
 
             <h4>Isn't This Just Plagiarism Detection?</h4>
                 <p class="answer">
-                    Most plagiarism detectors use a "bag of words" approach, where two documents are compared based on the similarity of the words they use but neither the word order nor the grammatical structure. In contrast, LID gives heavy weight to long strings of matching text.
-                </p>
+                Most plagiarism detectors use a "bag of words" approach, where two documents are compared based on the similarity of the words they use but neither the word order nor the grammatical structure. In contrast, LID gives heavy weight to long strings of matching text.</p>
 
 
             <h4>Where Do I Download the Dataset?</h4>
