@@ -8,7 +8,7 @@ website: ['http://harrisschool.uchicago.edu', 'http://sunlightfoundation.com']
 project: Text Analysis of Government Spending Bills to Understand Pork Spending
 description: http://dssg.uchicago.edu/2000/02/10/org-sunlight.html
 blog-post: http://dssg.uchicago.edu/2014/12/04/earmarks-data-transparent-government.html
-demo: http://52.1.141.254:3838/earmarks/
+demo: http://54.214.50.247:3838/earmarks/
 data: http://dssg.uchicago.edu/earmarks/
 paper: http://dssg.uchicago.edu/papers/identifying_earmarks.pdf
 ---
