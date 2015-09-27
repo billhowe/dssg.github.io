@@ -5,6 +5,7 @@ org: ['Charter Schools']
 slug: persistence
 img: ['noble.jpg', 'kippnj.jpg', 'kippchi.png', 'perspectives.png']
 website: 
+blog-post: http://dssg.uchicago.edu/2015/09/22/college-persistence.html
 project: Predicting College Persistence among High School Students
 description: http://dssg.uchicago.edu/2000/03/05/org-persistence.html
 ---

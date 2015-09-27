@@ -5,6 +5,7 @@ org: ['City of Cincinnati']
 slug: cincinnati
 img: [cincy.jpg]
 website: ['http://www.cincinnati-oh.gov/cityofcincinnati/']
+blog-post: http://dssg.uchicago.edu/2015/08/20/cincy-blight-prevention.html
 project: Proactive Blight Reduction and Neighborhood Revitalization
 description: http://dssg.uchicago.edu/2000/03/04/org-cincinnati.html
 ---

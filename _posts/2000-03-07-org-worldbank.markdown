@@ -5,6 +5,7 @@ org: ['World Bank Group']
 slug: worldbank
 img: [world-bank.jpg]
 website: ['http://www.worldbank.org']
+blog-post: http://dssg.uchicago.edu/2015/08/17/world-bank-kickstart.html
 project: Identifying Fraud & Collusion in International Development Projects
 description: http://dssg.uchicago.edu/2000/03/07/org-worldbank.html
 ---

@@ -5,6 +5,7 @@ org: ['Infonavit']
 slug: infonavit
 img: [infonavit.gif]
 website: ['http://www.infonavit.org.mx']
+blog-post: http://dssg.uchicago.edu/2015/08/13/infonavit-abandonment.html
 project: Improving Long-Term Financial Soundness by Identifying Causes of Home Abandonment in Mexico
 description: http://dssg.uchicago.edu/2000/03/02/org-infonavit.html
 ---
