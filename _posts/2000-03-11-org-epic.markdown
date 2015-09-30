@@ -5,6 +5,7 @@ org: ['epa']
 slug: epa
 img: [epa.png]
 website: 
+demo: http://54.214.50.247:3838/epa/
 project: Predictive Enforcement of Pollution and Hazardous Waste Violations
 description: http://dssg.uchicago.edu/2000/03/11/org-epic.html
 ---
