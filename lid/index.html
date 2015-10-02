@@ -81,7 +81,7 @@
 
                 <BR>&nbsp;<BR> 
 
-                <p>LID is faster and easier to use than other tools. Reading bills manually takes too long. Google helps, but the user needs to weed through many non-legislative results to find substantive results. In contrast, LID takes seconds to use and returns only state bills and model legislation. <a href="http://onlinelibrary.wiley.com/doi/10.1111/ajps.12175/abstract">Wilkerson, Smith, and Stramp (2015)</a> and <a href="http://projects.iq.harvard.edu/govposters/file/357876">Hertel-Fernandez and Kashin</a> inspired development of this tool.</p>
+                <p>LID is faster and easier to use than other tools. Reading bills manually takes too long. Google helps, but it only takes short strings, not complete documents, as input and the user needs to weed through many non-legislative results to find substantive results. In contrast, LID takes seconds to use, uses the entire document to find matches, and returns only state bills and model legislation. <a href="http://onlinelibrary.wiley.com/doi/10.1111/ajps.12175/abstract">Wilkerson, Smith, and Stramp (2015)</a> and <a href="http://projects.iq.harvard.edu/govposters/file/357876">Hertel-Fernandez and Kashin</a> inspired development of this tool.</p>
 
 
 
@@ -97,7 +97,7 @@
                     <!-- You can find the code <a href="github.com/dssg/policy_diffusion">here</a>. -->
                 </p>
 
-                <p>Many tools, such as the typical school plagiarism detector, use a "<a href="https://en.wikipedia.org/wiki/Bag-of-words_model">bag of words</a>" approach, which is much faster. Bag of words compares two documents based on the similarity of the words they use but does not consider their order. For example, bag of words may consider "I kicked the ball," "The ball I kicked," and even "kicked the I ball" the same. We consider word order important to legislation: not only does it add information about the bill's contents; it also helps us find subsets of matching text, such as sections and sentences. Because bills rarely pass without significant changes, a local-alignment algorithm's granularity helps it find more matches.</p>
+                <p>Many tools, such as the typical school plagiarism detector, use a "<a href="https://en.wikipedia.org/wiki/Bag-of-words_model">bag of words</a>" approach, which is much faster. Bag of words compares two documents based on the similarity of the words they use but does not consider their order. For example, bag of words may consider "I kicked the ball," "The ball I kicked," and even "kicked the I ball" the same. We consider word order important to legislation: not only does it add information about the bill's contents; it also helps us find subsets of matching text, such as sections and sentences. This increases the chance that we will find re-used text.</p>
 
                 
 
@@ -106,7 +106,7 @@
                 <p class="answer">
                 We provide datasets in two formats: <a href="https://en.wikipedia.org/wiki/Comma-separated_values">comma-separated values</a> (CSV) and <a href="https://en.wikipedia.org/wiki/JSON">JavaScript Object Notation</a> (JSON). Spreadsheet programs such as Excel can read CSVs, but you need more specialized programs to read JSON files, such as <a href="https://cran.r-project.org/web/packages/jsonlite/index.html">jsonlite</a> (for R), <a href="https://docs.python.org/3/library/json.html">json</a> (for Python), or <a href="https://stedolan.github.io/jq/">jq</a> (for the linux command line). We dropped some fields in the CSV (e.g. the text of the query document), but the JSON files have all the data.</p> 
 
-                <p>These files contain the results for comparisons across states and between lobbying groups and states. We have not yet run comparisons within states. Many states reintroduce nearly entire bills, <a href="http://www.stateside.com/wp-content/uploads/State-Carryover-Procedures-FactPad-Insert.pdf">sometimes automatically</a>, which means the matches are strong and the algorithm is slow. We plan to run the algorithm on all the bills soon.</p>
+                <p>These files contain the results for comparisons across states and between lobbying groups and states. We have not yet run comparisons within states (e.g. we do not compare an Illinois bill to past Illinois bills.) Many states reintroduce nearly entire bills, <a href="http://www.stateside.com/wp-content/uploads/State-Carryover-Procedures-FactPad-Insert.pdf">sometimes automatically</a>, which means the matches are strong and the algorithm is slow. We plan to run the algorithm on all the bills soon.</p>
 
                 <p>Here are the fields:
                     <ol>
