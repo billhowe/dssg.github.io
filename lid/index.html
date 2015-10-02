@@ -73,36 +73,36 @@
                 <p class="answer">
                 Journalists, researchers, and concerned citizens would like to know who’s writing legislative bills, but trying to read those bills, let alone trace their source, is tedious and time consuming. This is especially true at the state and local levels, where arguably more important policy decisions are made every day.</p>
 
-                <p>We built the Legislative Influence Detector (LID) to help watchdogs find legislative text re-use. LID searches more than 500,000 state bills (collected by the <a href="sunlightfoundation.com">Sunlight Foundation</a>) and 2,400 pieces of model legislation (collected by us, <a href="http://www.alecexposed.org/wiki/ALEC_Exposed">ALEC Exposed</a>, and other groups) for textual similarities and flags them for review. The user can then investigate the matches.</p>
+                <p>The Legislative Influence Detector (LID) helps watchdogs tackle this mountain of data by automatically searching for similar text. LID uses more than 500,000 state bills (collected by the <a href="sunlightfoundation.com">Sunlight Foundation</a>) and 2,400 pieces of model legislation (collected by us, <a href="http://www.alecexposed.org/wiki/ALEC_Exposed">ALEC Exposed</a>, and other groups) for textual similarities and flags them for review. The user can then investigate the matches.</p>
 
                 <p>The screenshot below shows an example. On the left-hand side is text from <a href="http://docs.legis.wisconsin.gov/2015/proposals/sb179">Wisconsin Senate Bill 179</a> (2015), which bans most abortions past the 19th week of pregnancy. On the right-hand side is SB 179's highest-ranked match, <a href="https://legiscan.com/LA/text/SB593/2012">Louisiana Senate Bill 593</a> (2012). The highlighting shows that these sections match almost perfectly. Where differences exist, they are usually numbers versus spelling (e.g. “16” versus “sixteen”) or section identifiers (e.g. “(b)” versus “(9)”).</p>
 
                 <img src="/img/posts/sunlight-reuse.png" align="center">
 
-                <p>Other tools can help trace policy ideas across state capitols. Many journalists and researchers read bills manually. Others use Google. Inspired by <a href="http://onlinelibrary.wiley.com/doi/10.1111/ajps.12175/abstract">Wilkerson, Smith, and Stramp (2015)</a> and <a href="http://projects.iq.harvard.edu/govposters/file/357876">Hertel-Fernandez and Kashin</a>, LID uses computational tools to quickly scan documents for textual matches. LID is faster, cheaper, and easier than existing tools for daily use, and it's automatic. In short, LID helps watchdogs stretch their limited resources further.</p>
+                <p>Other tools can help investigate the origins of legislative bills. Many journalists and researchers read bills manually. Others use Google. Inspired by <a href="http://onlinelibrary.wiley.com/doi/10.1111/ajps.12175/abstract">Wilkerson, Smith, and Stramp (2015)</a> and <a href="http://projects.iq.harvard.edu/govposters/file/357876">Hertel-Fernandez and Kashin</a>, LID is faster, cheaper, and easier than existing tools. In short, LID helps watchdogs stretch their limited resources further.</p>
+
 
 
 
             <h4>How Does It Work?</h4>
-                <p class="answer">
-                    LID works in two steps:
-                </p>
+                <p class="answer">LID works in two steps:
                     <ol>
-                        <li>For each document (either a bill or a piece of model legislation), we find the most similar documents as measured by <a href="https://www.elastic.co/guide/en/elasticsearch/guide/current/practical-scoring-function.html">Lucene score</a>.</li>
+                        <li>For each document (either a bill or a piece of model legislation), we find the most similar documents as measured by their <a href="https://www.elastic.co/guide/en/elasticsearch/guide/current/practical-scoring-function.html">Lucene scores</a>.</li>
                         <li>We then run a <a href=https://en.wikipedia.org/wiki/Smith-Waterman_algorithm">Smith-Waterman local-alignment algorithm</a> to compare the query and the 100 documents chosen in step 1.</li>
                     </ol>
+                </p>
+
                 <p>
-                    You can find the code <a href="github.com/dssg/policy_diffusion">here</a>.
+                    We could run the local-alignment on all documents, but it would take a long time to finish (possibly thousands of years!) The first step is a fast way to limit the number of comparisons the local-alignment algorithm needs to make. 
+                    <!-- You can find the code <a href="github.com/dssg/policy_diffusion">here</a>. -->
                 </p>
 
 
             <h4>How Do I Use the Data?</h4>
                 <p class="answer">
-                We provide data in two formats: <a href="https://en.wikipedia.org/wiki/Comma-separated_values">comma-separated values</a> (CSV) and <a href="https://en.wikipedia.org/wiki/JSON">JavaScript Object Notation</a> (JSON).</p> 
+                We provide data in two formats: <a href="https://en.wikipedia.org/wiki/Comma-separated_values">comma-separated values</a> (CSV) and <a href="https://en.wikipedia.org/wiki/JSON">JavaScript Object Notation</a> (JSON). CSVs have the usual table formats, while JSONs have a nested structure. Spreadsheet programs such as Excel can read CSVs, but more specialized programs, such as <a href="https://stedolan.github.io/jq/">jq</a>.</p> 
 
-                <p>The CSVs provide the documents, matching text, Smith-Waterman alignment score, and alignment section index.</p>
-
-                <p>The JSONs include the same data plus the Lucene score and the start and end of each piece of matched text. These additional fields inform the user about the quality of the matches in the first step and tell the user specifically where to find the matching text in the documents.</p>
+                <p>These files provide document indentifiers, the pieces of matching text, Smith-Waterman alignment score, and location information. The JSONs also include the Lucene score.</p>
 
                 <p>The Smith-Waterman score measures the length and quality of the match. The higher the score, the more likely it is the match is good.</p> 
 
