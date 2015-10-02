@@ -73,7 +73,7 @@
                 <p class="answer">
                 Journalists, researchers, and concerned citizens would like to know who’s writing legislative bills, but trying to read those bills, let alone trace their source, is tedious and time consuming. This is especially true at the state and local levels, where arguably more important policy decisions are made every day.</p>
 
-                <p>The Legislative Influence Detector (LID) helps watchdogs turn this mountain of data into digestable insights about the origin and diffusion of policy ideas, the effectiveness of various lobbying organizations, and the democratic nature of individual bills, all in near real time. LID uses more than 500,000 state bills (collected by the <a href="sunlightfoundation.com">Sunlight Foundation</a>) and 2,400 pieces of model legislation (collected by us, <a href="http://www.alecexposed.org/wiki/ALEC_Exposed">ALEC Exposed</a>, and other groups) for textual similarities and flags them for review. The user can then investigate the matches.</p>
+                <p>The Legislative Influence Detector (LID) helps watchdogs turn this mountain of data into digestable insights about the origin and diffusion of policy ideas, the effectiveness of various lobbying organizations, and the democratic nature of individual bills, all in near real time. LID uses more than 500,000 state bills (collected by the <a href="sunlightfoundation.com">Sunlight Foundation</a>) and 2,400 pieces of model legislation (collected by us, <a href="http://www.alecexposed.org/wiki/ALEC_Exposed">ALEC Exposed</a>, and other groups) for textual similarities and flags them for review. The user can then investigate the matches for influence.</p>
 
                 <p>The screenshot below shows an example. On the left-hand side is text from <a href="http://docs.legis.wisconsin.gov/2015/proposals/sb179">Wisconsin Senate Bill 179</a> (2015), which bans most abortions past the 19th week of pregnancy. On the right-hand side is SB 179's highest-ranked match, <a href="https://legiscan.com/LA/text/SB593/2012">Louisiana Senate Bill 593</a> (2012). The highlighting shows that these sections match almost perfectly. Where differences exist, they are usually numbers versus spelling (e.g. “16” versus “sixteen”) or section identifiers (e.g. “(b)” versus “(9)”).</p>
 
@@ -81,7 +81,7 @@
 
                 <BR>&nbsp;<BR> 
 
-                <p>Other tools can help investigate the origins of legislative bills. Many journalists and researchers read bills manually. Others use Google. Humans read slowly, and Google returns lots of non-legislative results. Inspired by <a href="http://onlinelibrary.wiley.com/doi/10.1111/ajps.12175/abstract">Wilkerson, Smith, and Stramp (2015)</a> and <a href="http://projects.iq.harvard.edu/govposters/file/357876">Hertel-Fernandez and Kashin</a>, LID is faster and easier to use than existing tools.</p>
+                <p>LID is faster and easier to use than other tools. Reading bills manually takes too long. Google helps, but the user needs to weed through many non-legislative results to find substantive results. In contrast, LID takes seconds to use and returns only state bills and model legislation. <a href="http://onlinelibrary.wiley.com/doi/10.1111/ajps.12175/abstract">Wilkerson, Smith, and Stramp (2015)</a> and <a href="http://projects.iq.harvard.edu/govposters/file/357876">Hertel-Fernandez and Kashin</a> inspired development of this tool.</p>
 
 
 
@@ -106,7 +106,7 @@
                 <p class="answer">
                 We provide data in two formats: <a href="https://en.wikipedia.org/wiki/Comma-separated_values">comma-separated values</a> (CSV) and <a href="https://en.wikipedia.org/wiki/JSON">JavaScript Object Notation</a> (JSON). Spreadsheet programs such as Excel can read CSVs, but you need more specialized programs to read JSON files, such as <a href="https://cran.r-project.org/web/packages/jsonlite/index.html">jsonlite</a> (for R), <a href="https://docs.python.org/3/library/json.html">json</a> (for Python), or <a href="https://stedolan.github.io/jq/">jq</a> (for the linux command line). We dropped some fields in the CSV (e.g. the text of the query document), but the JSON files have all the data.</p> 
 
-                <p>These files contain the results for comparisons across states and between lobbying groups and states. We have not yet run comparisons within states. Many states reintroduce nearly entire bills, sometimes automatically, which means the matches are strong and the algorithm is slow. We plan to run the algorithm on all the bills soon.</p>
+                <p>These files contain the results for comparisons across states and between lobbying groups and states. We have not yet run comparisons within states. Many states reintroduce nearly entire bills, <a href="http://www.stateside.com/wp-content/uploads/State-Carryover-Procedures-FactPad-Insert.pdf">sometimes automatically</a>, which means the matches are strong and the algorithm is slow. We plan to run the algorithm on all the bills soon.</p>
 
                 <FONT FACE="'ff-tisa-web-pro', Georgia, Cambria, 'Times New Roman', Times, serif" SIZE=10px>Here are the fields:</FONT>
                     <ol>
