@@ -104,6 +104,8 @@
                 <p class="answer">
                 We provide data in two formats: <a href="https://en.wikipedia.org/wiki/Comma-separated_values">comma-separated values</a> (CSV) and <a href="https://en.wikipedia.org/wiki/JSON">JavaScript Object Notation</a> (JSON). Spreadsheet programs such as Excel can read CSVs, but you need more specialized programs to read JSON files, such as <a href="https://stedolan.github.io/jq/">jq</a>. We dropped some fields in the CSV (e.g. the text of the query document), but the JSON files have all the data.</p> 
 
+                <p>These files contain the results for comparisons across states and between lobbying groups and states. We have not yet run comparisons within states. Many states reintroduce nearly entire bills, sometimes automatically, which means the matches are strong and the algorithm is slow. We will run the algorithm on all the bills soon.</p>
+
                 <p>Here are the fields:
                     <ol>
                         <li><u>query_document_id</u>: The bill ID for the search document. The first two characters reference the state, the next set of characters reference the session (e.g. 2015-2016), and the last set of characters identify the bill.</li>
