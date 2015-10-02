@@ -79,9 +79,9 @@
 
                 <img src="/img/posts/sunlight-reuse.png" align="center">
 
-                <p>
+                <BR>&nbsp;<BR> 
 
-                    Other tools can help investigate the origins of legislative bills. Many journalists and researchers read bills manually. Others use Google. Humans read slowly, and Google returns lots of non-legislative results. Inspired by <a href="http://onlinelibrary.wiley.com/doi/10.1111/ajps.12175/abstract">Wilkerson, Smith, and Stramp (2015)</a> and <a href="http://projects.iq.harvard.edu/govposters/file/357876">Hertel-Fernandez and Kashin</a>, LID is faster and easier to use than existing tools.</p>
+                <p>Other tools can help investigate the origins of legislative bills. Many journalists and researchers read bills manually. Others use Google. Humans read slowly, and Google returns lots of non-legislative results. Inspired by <a href="http://onlinelibrary.wiley.com/doi/10.1111/ajps.12175/abstract">Wilkerson, Smith, and Stramp (2015)</a> and <a href="http://projects.iq.harvard.edu/govposters/file/357876">Hertel-Fernandez and Kashin</a>, LID is faster and easier to use than existing tools.</p>
 
 
 
@@ -89,7 +89,7 @@
             <h4>How Does It Work?</h4>
                 <p class="answer">When the user wants to find text matches for a legislative document, she copies and pastes that document text into LID's input box. LID then quickly scans all its documents for similar text and returns the best matches, highlighting the matching text.</p> 
 
-                <p>NOTE: WE HAVE NOT MADE THE INTERACTIVE TOOL AVAILABLE YET. WE RAN ALL OUR DOCUMENTS THROUGH LID AND STORED THE RESULTS FOR PUBLIC USE. WE HOPE TO MAKE THE INTERACTIVE TOOL PUBLIC IN THE COMING MONTHS.</p>
+                <p>NOTE: LID is not yet robust enough to handle public traffic. We ran all the documents we have through LID, stored the results in datasets, and made them available for download below. We hope to make the interactive tool available to the public soon.</p>
 
                 <p>We use the <a href=https://en.wikipedia.org/wiki/Smith-Waterman_algorithm">Smith-Waterman local-alignment algorithm</a> to find matching text across documents. This algorithm grabs pieces of text from each document and compares each word, adding points for matches and subtracting points for mismatches.</p>
 
@@ -108,7 +108,7 @@
 
                 <p>These files contain the results for comparisons across states and between lobbying groups and states. We have not yet run comparisons within states. Many states reintroduce nearly entire bills, sometimes automatically, which means the matches are strong and the algorithm is slow. We plan to run the algorithm on all the bills soon.</p>
 
-                <p>Here are the fields:
+                <p>Here are the fields:</p>
                     <ol>
                         <li><u>query_document_id</u>: The bill ID for the search document. The first two characters reference the state, the next set of characters reference the session (e.g. 2015-2016), and the last set of characters identify the bill.</li>
                         <li><u>comparison_document_id</u>: The bill ID for the comparison document.</li>
@@ -123,15 +123,14 @@
                         <li><u>query_document_text</u>: The matched text in the query document.</li>
                         <li><u>comparison_document_text</u>: The matched text in the comparison document.</li>
                     </ol>
-                </p>
+                
 
                 <p>These results are not comprehensive. We will not find matches on bills that failed to make their way into Sunlight's database. We will not find model legislation that is not public. Lobbyists and legislators may avoid detection by rewriting bills. Although LID would not find these examples, it does make re-using text more difficult. LID helps establish a minimum number of matches.</p>
 
 
 
             <h4>Where Do I Download the Dataset?</h4>
-                <p class="answer">
-		          We have two datasets: bill-to-bill comparisons and model legislation-to-bill comparisons. The former shows how bills spread across legislatures, and the latter show how ideas spread across lobbying groups and legislatures:
+                <p class="answer">We have two datasets: bill-to-bill comparisons and model legislation-to-bill comparisons. The former shows how bills spread across legislatures, and the latter show how ideas spread across lobbying groups and legislatures:
 		          <ul> 
                     <li>Bill-to-bill comparisons in CSV format (updated through <a href="https://s3-us-west-2.amazonaws.com/policy-origination/bill_to_bill_alignments.csv">May, 2015</a>)</li>
 			         <li>Bill-to-bill comparisons in JSON format (updated through <a href="https://s3-us-west-2.amazonaws.com/policy-origination/bill_to_bill_alignments.json">May, 2015</a>)</li>
