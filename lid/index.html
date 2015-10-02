@@ -89,7 +89,7 @@
             <h4>How Does It Work?</h4>
                 <p class="answer">When the user wants to find text matches for a legislative document, she copies and pastes that document text into LID's input box. LID then quickly scans all its documents for similar text and returns the best matches, highlighting the matching text.</p> 
 
-                <p>NOTE: LID is not yet robust enough to handle public traffic. We ran all the documents we have through LID, stored the results in datasets, and made them available for download below. We hope to make the interactive tool available to the public soon.</p>
+                <p>NOTE: LID is not yet robust enough to handle public traffic. We ran all the documents we have through LID, stored the matches in files, and made them available for download below. We hope to make the interactive tool available to the public in the coming months.</p>
 
                 <p>We use the <a href=https://en.wikipedia.org/wiki/Smith-Waterman_algorithm">Smith-Waterman local-alignment algorithm</a> to find matching text across documents. This algorithm grabs pieces of text from each document and compares each word, adding points for matches and subtracting points for mismatches.</p>
 
@@ -108,7 +108,7 @@
 
                 <p>These files contain the results for comparisons across states and between lobbying groups and states. We have not yet run comparisons within states. Many states reintroduce nearly entire bills, sometimes automatically, which means the matches are strong and the algorithm is slow. We plan to run the algorithm on all the bills soon.</p>
 
-                <FONT FACE="'ff-tisa-web-pro', Georgia, Cambria, 'Times New Roman', Times, serif" SIZE=20px LINE-HEIGHT=32px>Here are the fields:</FONT>
+                <FONT FACE="'ff-tisa-web-pro', Georgia, Cambria, 'Times New Roman', Times, serif" SIZE=20>Here are the fields:</FONT>
                     <ol>
                         <li><u>query_document_id</u>: The bill ID for the search document. The first two characters reference the state, the next set of characters reference the session (e.g. 2015-2016), and the last set of characters identify the bill.</li>
                         <li><u>comparison_document_id</u>: The bill ID for the comparison document.</li>
