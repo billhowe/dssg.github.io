@@ -87,24 +87,26 @@
 
 
             <h4>How Does It Work?</h4>
-                <p class="answer">LID works in two steps:
-                    <ol>
-                        <li>For each document (either a bill or a piece of model legislation), we find the most similar documents as measured by their <a href="https://www.elastic.co/guide/en/elasticsearch/guide/current/practical-scoring-function.html">Lucene scores</a>.</li>
-                        <li>We then run a <a href=https://en.wikipedia.org/wiki/Smith-Waterman_algorithm">Smith-Waterman local-alignment algorithm</a> to compare the query and the 100 documents chosen in step 1.</li>
-                    </ol>
-                </p>
+                <p class="answer">When the user wants to find text matches for a legislative document, she copies and pastes that document text into LID's input box. LID then quickly scans all its documents for similar text and returns the best matches, highlighting the matching text.</p> 
 
-                <p>
-                    We could run the local-alignment on all documents, but it would take a long time to finish (possibly thousands of years!) The first step is a fast way to limit the number of comparisons the local-alignment algorithm needs to make. 
+                <p>NOTE: WE HAVE NOT MADE THE INTERACTIVE TOOL AVAILABLE YET. WE RAN ALL OUR DOCUMENTS THROUGH LID AND STORED THE RESULTS FOR PUBLIC USE. WE HOPE TO MAKE THE INTERACTIV</p>
+
+                <p>We use the <a href=https://en.wikipedia.org/wiki/Smith-Waterman_algorithm">Smith-Waterman local-alignment algorithm</a> to find matching text across documents. This algorithm grabs pieces of text from each document and compares each word, adding points for matches and subtracting points for mismatches.</p>
+
+                <p>Unfortunately, the local-alignment algorithm is too slow to work on large sets of text, such as ours. Given our computational resources, it would likely takes thousands of years to finish analyzing these pieces of legislation. We sped the analysis by limiting the number of documents that need to be compared. Elasticsearch, our database of choice for this project, efficiently calculates <a href="https://www.elastic.co/guide/en/elasticsearch/guide/current/practical-scoring-function.html">Lucene scores</a>. When we use LID to search for a document, it quickly compares our document against all others and grabs the 100 most similar documents as measured by their Lucene scores. Then we run the local-alignment algorithm on those.
                     <!-- You can find the code <a href="github.com/dssg/policy_diffusion">here</a>. -->
                 </p>
 
+                <p>Many tools, such as the typical school plagiarism detector, use a "<a href="https://en.wikipedia.org/wiki/Bag-of-words_model">bag of words</a>" approach, which is much faster. Bag of words compares two documents based on the similarity of the words they use but does not consider their order. For example, bag of words may consider "I kicked the ball," "The ball I kicked," and even "kicked the I ball" the same. We consider word order important to legislation: not only does it add information about the bill's contents; it also helps us find subsets of matching text, such as sections and sentences. Because bills rarely pass without significant changes, a local-alignment algorithm's granularity helps it find more matches.</p>
 
-            <h4>How Do I Use the Data?</h4>
+                
+
+
+            <h4>How Do I Use the Datasets?</h4>
                 <p class="answer">
-                We provide data in two formats: <a href="https://en.wikipedia.org/wiki/Comma-separated_values">comma-separated values</a> (CSV) and <a href="https://en.wikipedia.org/wiki/JSON">JavaScript Object Notation</a> (JSON). Spreadsheet programs such as Excel can read CSVs, but you need more specialized programs to read JSON files, such as <a href="https://stedolan.github.io/jq/">jq</a>. We dropped some fields in the CSV (e.g. the text of the query document), but the JSON files have all the data.</p> 
+                We provide data in two formats: <a href="https://en.wikipedia.org/wiki/Comma-separated_values">comma-separated values</a> (CSV) and <a href="https://en.wikipedia.org/wiki/JSON">JavaScript Object Notation</a> (JSON). Spreadsheet programs such as Excel can read CSVs, but you need more specialized programs to read JSON files, such as <a href="https://cran.r-project.org/web/packages/jsonlite/index.html">jsonlite</a> (for R), <a href="https://docs.python.org/3/library/json.html">json</a> (for Python), or <a href="https://stedolan.github.io/jq/">jq</a> (for the linux command line). We dropped some fields in the CSV (e.g. the text of the query document), but the JSON files have all the data.</p> 
 
-                <p>These files contain the results for comparisons across states and between lobbying groups and states. We have not yet run comparisons within states. Many states reintroduce nearly entire bills, sometimes automatically, which means the matches are strong and the algorithm is slow. We will run the algorithm on all the bills soon.</p>
+                <p>These files contain the results for comparisons across states and between lobbying groups and states. We have not yet run comparisons within states. Many states reintroduce nearly entire bills, sometimes automatically, which means the matches are strong and the algorithm is slow. We plan to run the algorithm on all the bills soon.</p>
 
                 <p>Here are the fields:
                     <ol>
@@ -126,12 +128,6 @@
                 <p>These results are not comprehensive. We will not find matches on bills that failed to make their way into Sunlight's database. We will not find model legislation that is not public. Lobbyists and legislators may avoid detection by rewriting bills. Although LID would not find these examples, it does make re-using text more difficult. LID helps establish a minimum number of matches.</p>
 
 
-            <h4>Isn't This Just Plagiarism Detection?</h4>
-                <p class="answer">
-                LID shares similarities with the typical plagiarism detector, but it differs in significant ways. Most plagiarism detectors use a "<a href="https://en.wikipedia.org/wiki/Bag-of-words_model">bag of words</a>" approach, where two documents are compared based on the similarity of the words they use, not the word order. For example, bag of words may consider "I kicked the ball," "The ball I kicked," and even "kicked the I ball" the same. In contrast, LID considers word order important.</p>
-
-                <p>Because most plagiarism detectors look at how documents compare overall, they can miss matches on subsets of text. Using local alignments helps us find sections and even sentences that match. Because bills rarely pass across lobbying organizations and states without significant changes to some of their sections, local alignment is better suited for the task.</p>
-
 
             <h4>Where Do I Download the Dataset?</h4>
                 <p class="answer">
@@ -144,6 +140,13 @@
 		          </ul>
                 </p>
 
+            <h4>Next Steps</h4>
+                <p>
+                    1) Look for all matches: intra-state and inter-state
+                    2) Automatically download new bills every night and flag potential matches for review. We would like to notify interested users of potential matches automatically, perhaps through emails.
+                    3) Make the interactive tool available to the public. Requires more robustness.
+                    4) Synonyms and other matching improvements.
+                </p>
 
 
             <h4>Who are we?</h4>
