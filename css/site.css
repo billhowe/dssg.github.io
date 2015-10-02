@@ -69,12 +69,19 @@ ul {
         margin-bottom: 30px;
 }
 
+ol {
+        font-size: 20px;
+        line-height: 32px;
+        color: rgb(73, 78, 85);
+        font-family: 'ff-tisa-web-pro', Georgia, Cambria, 'Times New Roman', Times, serif;
+        margin-bottom: 30px;
+}
+
 li {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 32px;
     color: rgb(73, 78, 85);
     font-family: 'ff-tisa-web-pro', Georgia, Cambria, 'Times New Roman', Times, serif;
-    margin-bottom: 30px;
 }
 
 
