@@ -104,11 +104,11 @@
 
             <h4>How Do I Use the Datasets?</h4>
                 <p class="answer">
-                We provide data in two formats: <a href="https://en.wikipedia.org/wiki/Comma-separated_values">comma-separated values</a> (CSV) and <a href="https://en.wikipedia.org/wiki/JSON">JavaScript Object Notation</a> (JSON). Spreadsheet programs such as Excel can read CSVs, but you need more specialized programs to read JSON files, such as <a href="https://cran.r-project.org/web/packages/jsonlite/index.html">jsonlite</a> (for R), <a href="https://docs.python.org/3/library/json.html">json</a> (for Python), or <a href="https://stedolan.github.io/jq/">jq</a> (for the linux command line). We dropped some fields in the CSV (e.g. the text of the query document), but the JSON files have all the data.</p> 
+                We provide datasets in two formats: <a href="https://en.wikipedia.org/wiki/Comma-separated_values">comma-separated values</a> (CSV) and <a href="https://en.wikipedia.org/wiki/JSON">JavaScript Object Notation</a> (JSON). Spreadsheet programs such as Excel can read CSVs, but you need more specialized programs to read JSON files, such as <a href="https://cran.r-project.org/web/packages/jsonlite/index.html">jsonlite</a> (for R), <a href="https://docs.python.org/3/library/json.html">json</a> (for Python), or <a href="https://stedolan.github.io/jq/">jq</a> (for the linux command line). We dropped some fields in the CSV (e.g. the text of the query document), but the JSON files have all the data.</p> 
 
                 <p>These files contain the results for comparisons across states and between lobbying groups and states. We have not yet run comparisons within states. Many states reintroduce nearly entire bills, <a href="http://www.stateside.com/wp-content/uploads/State-Carryover-Procedures-FactPad-Insert.pdf">sometimes automatically</a>, which means the matches are strong and the algorithm is slow. We plan to run the algorithm on all the bills soon.</p>
 
-                <FONT FACE="'ff-tisa-web-pro', Georgia, Cambria, 'Times New Roman', Times, serif" SIZE=10px>Here are the fields:</FONT>
+                Here are the fields:
                     <ol>
                         <li><u>query_document_id</u>: The bill ID for the search document. The first two characters reference the state, the next set of characters reference the session (e.g. 2015-2016), and the last set of characters identify the bill.</li>
                         <li><u>comparison_document_id</u>: The bill ID for the comparison document.</li>
@@ -125,7 +125,7 @@
                     </ol>
                 
 
-                <p>These results are not comprehensive. We will not find matches on bills that failed to make their way into Sunlight's database. We will not find model legislation that is not public. Lobbyists and legislators may avoid detection by rewriting bills. Although LID would not find these examples, it does make re-using text more difficult. LID helps establish a minimum number of matches.</p>
+                <p>These datasets are not comprehensive. We will not find matches on bills that failed to make their way into Sunlight's database. We will not find model legislation that is not public. Lobbyists and legislators may avoid detection by rewriting bills. Although LID would not find these examples, it does make re-using text more difficult. LID helps establish a minimum number of matches.</p>
 
 
 
