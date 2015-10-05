@@ -107,7 +107,7 @@
                         <li><u>query_document_id</u>: The bill ID for the search document. The first two characters reference the state, the next set of characters reference the session (e.g. 2015-2016), and the last set of characters identify the bill.</li>
                         <li><u>comparison_document_id</u>: The bill ID for the comparison document.</li>
                         <li><u>lucene_score</u>: <a href="https://www.elastic.co/guide/en/elasticsearch/guide/current/practical-scoring-function.html">Lucene scores</a> are a measure of the match we found in step 1. The better the match, the higher the number. We only use these scores as a rough way to limit the number of comparison documents for step 2.</li>
-                        <li><u>score</u>: A measure of the match we found in step 2. The numbers are a little hard to interpret directly, but longer the text match, the higher the score. If you order the results from highest to lowest, you'll have the best results at the top and the worst results at the bottom. 
+                        <li><u>score</u>: The Smith-Waterman measure. The more similar two pieces of text are, the higher the score. The algorithm adds 2 when the words match and subtracts 1 when the words don't or <a href="https://en.wikipedia.org/wiki/Gap_penalty">when there is a gap</a>. If you order the results from highest to lowest, you'll have the best results at the top and the worst results at the bottom.<br> 
 
                         Whatever Smith-Waterman cutoff you use, know that you're making a tradeoff: The higher the cutoff, the fewer false positives (incorrectly flagged matches) and the more false negatives (missed matches) you will get. We have found a decent set of matches only using scores over 100, but if you're worried about missing other bills, you can check the matches with scores under 100 too.</li>
                         <li><u>query_document_start</u>: The starting position of the matched text in the query document.</li>
@@ -120,7 +120,7 @@
                 </p>
                 
 
-                <p>These datasets are not comprehensive. We cannot find matches for bills that failed to make their way into Sunlight's database, nor can we use model legislation that is not public. We also miss bills rewritten to avoid detection -- although LID does make it more difficult for lobbyists and legislators to work in secret by forcing them to rewrite every time they want to introduce their legislation.</p>
+                <p>LID has generated the most comprehensive datasets of publicly available legislative text re-use. Still, the data are not comprehensive. We cannot find matches for bills that failed to make their way into Sunlight's database, nor can we use model legislation that is not public. We also miss bills rewritten to avoid detection -- although LID does make it more difficult for lobbyists and legislators to work in secret by forcing them to rewrite every time they want to introduce their legislation.</p>
 
                 <p>Finally, we have not yet run comparisons within states (for example, we do not compare an Illinois bill to past Illinois bills.) Many states reintroduce nearly entire bills, <a href="http://www.stateside.com/wp-content/uploads/State-Carryover-Procedures-FactPad-Insert.pdf">sometimes automatically</a>, which means the matches are strong and the algorithm is slow. We plan to run the algorithm on all the bills soon.</p>
 
@@ -137,7 +137,7 @@
                 </p>
 
             <h4>Next Steps</h4>
-                <p class="answer">Much work remains. We are working on four improvements to make LID as useful as possible:</a>
+                <p class="answer">The data we present here are just the beginning. We are continuing to develop LID to make it more useful and accessible:</a>
                     <ol>
                         <li><u>Look for all matches</u>: To get results by the end of the DSSG, we only looked for matches across states, but many state legislatures re-introduce bills. We will re-run our documents through LID to find matches within states too.</li>
                         <li><u>Look for new matches every day</u>: State legislators introduce bills nearly every day. We would like to run those bills through LID every night and flag text similarities for review. We may set up an email system to alert users of matches.</li>
