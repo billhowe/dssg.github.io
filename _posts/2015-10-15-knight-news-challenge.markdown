@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Our Knight News Challenge Submissions"
-author: Joe Walsh
+author: Data Science for Social Good
 ---
 
 This year’s [Knight News Challenge](https://www.newschallenge.org/) asks, “How might we make data work for individuals and communities?” Data Science for Social Good and its parent organization, the [Center for Data Science and Public Policy](http://dsapp.org/), pursue answers to this question every day. We submitted four of our projects to this year’s challenge so we can develop them and release them to the public. 
