@@ -6,7 +6,7 @@ author: Data Science for Social Good
 
 This year’s [Knight News Challenge](https://www.newschallenge.org/) asks, “How might we make data work for individuals and communities?” Data Science for Social Good and its parent organization, the [Center for Data Science and Public Policy](http://dsapp.org/), pursue answers to this question every day. We submitted four of our projects to this year’s challenge so we can develop them and release them to the public. 
  
-We would appreciate your support and feedback. We have summarized our four projects below, but you can read our full proposals, comment on them, and give them “applause” (the little hearts that appear on each submission) at the Knight News Challenge website. You can find the complete proposals here.
+We would appreciate your support and feedback. We have summarized our four projects below, but you can read our full proposals, comment on them, and give them “applause” (the little hearts that appear on each submission) at the Knight News Challenge website. You can find the complete proposals [here](https://www.newschallenge.org/search?text=dsapp).
  
 ####[ART: Automated Redaction Tool for Fast Processing of FOIA Requests](https://www.newschallenge.org/challenge/data/entries/automated-redaction-for-fast-processing-of-freedom-of-information-act-requests)####
 
