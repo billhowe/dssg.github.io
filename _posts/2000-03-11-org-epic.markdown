@@ -6,6 +6,7 @@ slug: epa
 img: [epa.png]
 website: 
 demo: http://54.244.236.175:3838/epa/
+blog-post: http://dssg.uchicago.edu/2015/10/16/epa-toxic-waste.html
 project: Predictive Enforcement of Pollution and Hazardous Waste Violations
 description: http://dssg.uchicago.edu/2000/03/11/org-epic.html
 ---
