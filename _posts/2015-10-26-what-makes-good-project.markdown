@@ -1,0 +1,55 @@
+---
+layout: post
+title: "What Makes a Good DSSG Project?"
+author: DSSG
+---
+
+Data Science for Social Good is a summer program that requires year-round preparation. A successful summer requires a mix of good people and projects, and we spend a lot of time trying to find projects to solve and the people to solve them. In addition to reading over [800 applications](http://dssg.uchicago.edu/2015/02/06/applicant-overview-1.html) from aspiring fellows, mentors, and project managers, we've spent numerous hours researching, pursuing, and scoping projects: exploring datasets, speaking with representatives, and wrangling with attorneys. Well over a hundred projects will cross our emails, phones, and eyes before we find the 12 to do next summer. 
+ 
+We vet potential projects as best we can because it is costly to make a mistake. We have limited funds and time to work on projects. The fellows need to hit the ground running and to make progress throughout the summer, neither of which can happen if we don't choose the projects well. For various reasons, we’ve had to "kill" a project or two once the fellowship was underway and switch the teams to a different project, which disrupts the environment and makes it difficult for the affected team of fellows to be as effective as they would've been otherwise. 
+
+Many people have asked what we look for when choosing projects. There is no simple formula. We consider many things, some of which relate to the goals of the fellowship and some of which are practical. We decided to write this post to give everyone a better idea of what we look at when we evaluate a project’s potential.
+
+####Project Requirements####
+
+Several things are required for a project to achieve success. The following list outlines the requirements for a successful project. These alone do not guarantee success, but success is nearly impossible without them. We have found some requirements easier to satisfy; we have ordered them from easiest to most difficult: 
+
+<ul>
+	<li><b>A solvable problem.</b> Some problems are too big or too difficult to solve in a summer. If an organization were to ask us to solve world poverty, we would have to decline because it's far too complex a problem for a summer fellowship. Few potential partners have pitched unsolvable problems, but when they do, we can usually get around it by focusing on one aspect of the problem. DSSG cannot solve poverty in three months, but we can help alleviate it by reducing <a href="http://dssg.uchicago.edu/2000/02/01/org-skills.html">unemployment</a>, <a href="http://dssg.uchicago.edu/2000/02/04/org-homeless.html">homelessness</a>, <a href="http://dssg.uchicago.edu/2000/02/01/org-mexico.html">maternal mortality</a>, <a href="http://dssg.uchicago.edu/2000/02/03/org-cdph.html">lead poisoning</a>, and <a href="http://dssg.uchicago.edu/2000/02/02/org-mcps.html">school dropout rates</a> and increasing <a href="http://dssg.uchicago.edu/2000/02/06/org-memphis.html">smart urban investments</a>, <a href="http://dssg.uchicago.edu/2000/02/07/org-nfp.html">home-visitation rates</a>, <a href="http://dssg.uchicago.edu/2000/02/08/org-enroll.html">insurance rates</a>, and <a href="http://dssg.uchicago.edu/2000/02/05/org-healthleads.html">social services interactions</a>, among other things.</li><p />
+	<li><b>A challenging problem.</b> We look for projects that will challenge three or four data science fellows for the duration of the fellowship. Anything less squanders the fellows' time and denies the them an opportunity to learn. Challenging problems encourage teamwork, spawn creative solutions, and play a key role in DSSG's ability to "<a href="http://dssg.uchicago.edu/faq/">produce data scientists with strong skills in solving real-world problems and an understanding, excitement, and passion for solving problems with social impact</a>." For example, our <a href="http://dssg.uchicago.edu/2000/02/12/org-worldbank.html">World Bank team</a> worked with another fellow who has search-engine expertise to find links between corrupt applicants online, and our <a href="http://dssg.uchicago.edu/2000/02/11/org-cps.html">Chicago Public Schools team</a> worked with fellows who had strong D3 experience to build an interactive map showing where kids go to school. We once tried to give several smaller projects instead of one big project to a team of fellows but found that it did not work as well.</li><p />
+	<li><b>An important problem with social impact.</b> We make a substantial investment in each project, not only financially (typically over $100,000) but also opportunistically (when we choose to do a project, we choose not to do another project). We’d like to dedicate our limited resources to substantial problems. Each project must meet an operational need for the partner organization and must have a tangible connection to "social good." We'd decline a hedge fund if it asked us to help get bigger returns or an NGO that asked us to purely analyze historical data that have little relevance or actionable impact today. All else being equal, we value projects that help more people over fewer people and that solve chronic problems over temporary problems. Past projects have been in areas such as public health, education, economic development, disaster response, and the environment, but other projects qualify.</li><p />
+	<li><b>A motivated, capable, and committed partner.</b> No project can succeed without a fully invested project partner. Project partners understand the problem, they have subject-matter expertise, and they ultimately decide how our work is used. Being practitioners, our partners often look at the problem differently than we do, which is <a href="https://www.youtube.com/watch?v=lt9UeknKwZw">important for solving tough problems</a>. We need them to provide insight into the problem and to guide us as we develop a solution.<br><br>
+	This demands a lot from partners. It often requires partners stretching themselves and asking themselves hard questions. It also requires time. We look for partners who will help scope the project before the fellowship, give a presentation about their work in the second week of the fellowship, chat at least once a week with the team throughout the fellowship, and use our work after the fellowship. In our experience, this level of engagement usually requires an individual within the partner organization to dedicate about 20% of her time over the summer to supporting the team -- not a small ask, especially for non-profits and governments with resource constraints or small staffs.</li><p />
+	<li><b>Appropriate, relevant data.</b> Getting the data we need is almost always the biggest challenge. Important things go unmeasured or unrecorded or, more commonly, cannot be shared. Many of our projects involve medical, educational, and other sensitive information. Getting lawyers to agree on data and code sharing can take a few months. We try to be flexible -- partners have anonymized data (while keeping it useful at an individual level), conducted background checks, hired our fellows as (unpaid) interns, and required us to do our analyses on their internal computer systems (remotely) -- while maintaining a spirit of openness. We have released code but not data for the <a href="https://github.com/dssg/nfp">Nurse-Family Partnership</a>, <a href="https://github.com/dssg/predicting_student_enrollment_public">Chicago Public Schools</a>, <a href="https://github.com/dssg/student-early-warning">Montgomery County Public Schools</a>, and the <a href="https://github.com/dssg/homelessness-public">Chicago Alliance to End Homelessness</a>. We expect our partners to provide us with all the internal relevant data they have related to the problem we're tackling so we can build a solution that's most appropriate and effective for them, and so that the solution can be deployed easily. </li>
+</ul>
+
+####Fellowship Considerations####
+
+While the above requirements help determine whether a project can succeed on its own, other factors help determine whether a project helps DSSG succeed:
+
+<ul>
+	<li><b>Diversity of projects.</b> One of DSSG’s goals is to inspire social gooders to adopt data-driven solutions. By choosing a diverse set of projects, we can demonstrate the value of analytics to the whole sector. A diverse set of projects also draws a richer pool of fellows, helps keep people interested, and leads to the cross-pollination of ideas.</li><p />
+	<li><b>Long-term relationships.</b> It is easier to continue a relationship with a project partner than to start a new one. By the end of our first summer together, we have greased the wheels for cooperation: we have worked out a legal agreement, established expectations, and built personal relationships. In addition, long-term relationships tend to result in more implementation and impact from our work. All else being equal, we prefer to continue relationships with previous partners but we are always looking for strong, new partners.</li>
+</ul>
+
+####Our Comparative Advantage####
+
+We try to focus on the burgeoning field of data science rather than trying to compete with the many qualified people working in more established fields such as website design and observational impact evaluations. While many organizations correctly recognize the value of those endeavors, we hope to evangelize the utility of a broader set of data-driven tasks, including prediction, classification, and clustering, among governments and non-profits. For many partners, this means viewing data less as a tool for justification and more as a tool for program improvement. 
+ 
+Many organizations have also suggested we work together to figure out what data they should be collecting. That can be a worthwhile discussion for our year-round center, the <a href="http://dsapp.org/">Center for Data Science and Public Policy</a>, but it’s not the type of project that suits our summer fellowship well. We want the fellows to get their hands dirty with data; figuring our which data to collect and then collecting those data means less time *using* those data. 
+
+####How to Get Involved####
+
+We're always looking for new ways to apply our skills for the social good. If you have a project for us to work on, please let us know. You can fill out an application <a href="http://dssg.io/2013/11/06/call-for-project-partners.html">here</a>. We look forward to hearing from you!
+
+
+
+
+
+
+
+
+
+
+
+
