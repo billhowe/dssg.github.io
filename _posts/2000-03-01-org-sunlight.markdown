@@ -9,6 +9,7 @@ data: http://dssg.uchicago.edu/lid
 blog-post: http://dssg.uchicago.edu/2015/07/09/sunlight.html
 project: Tracing Policy Ideas From Lobbyists Through State Legislatures
 description: http://dssg.uchicago.edu/2000/03/01/org-sunlight.html
+paper: http://dssg.uchicago.edu/papers/legislative_text_reuse.pdf
 ---
 
 <p>Legislators often lack the time to write bills, so they frequently rely on outside groups to help.  Researchers and concerned citizens would like to know who’s writing legislative bills, but trying to read those bills, let alone trace their source, is tedious and time consuming.  This is especially true at the state and local levels, where arguably more important policy decisions are made every day.
