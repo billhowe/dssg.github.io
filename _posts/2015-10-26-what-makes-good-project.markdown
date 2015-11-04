@@ -41,7 +41,7 @@ Many organizations have also suggested we work together to figure out what data 
 
 ####How to Get Involved####
 
-We're always looking for new ways to apply our skills for the social good. If you have a project for us to work on, please let us know. You can fill out an application <a href="http://dssg.io/2013/11/06/call-for-project-partners.html">here</a>. We look forward to hearing from you!
+We're always looking for new ways to apply our skills for the social good. If you have a project for us to work on, please let us know. We look forward to hearing from you!
 
 
 
