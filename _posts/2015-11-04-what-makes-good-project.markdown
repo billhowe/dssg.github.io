@@ -2,7 +2,7 @@
 layout: post
 title: "What Makes a Good DSSG Project?"
 author: DSSG
-published: false
+published: true
 ---
 
 Data Science for Social Good is a summer program that requires year-round preparation. A successful summer requires a mix of good people and projects, and we spend a lot of time trying to find projects to solve and the people to solve them. In addition to reading over [800 applications](http://dssg.uchicago.edu/2015/02/06/applicant-overview-1.html) from aspiring fellows, mentors, and project managers, we've spent numerous hours researching, pursuing, and scoping projects: exploring datasets, speaking with representatives, and wrangling with attorneys. Well over a hundred projects will cross our emails, phones, and eyes before we find the 12 to do next summer. 
