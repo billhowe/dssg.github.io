@@ -9,6 +9,9 @@ Data Science for Social Good is a summer program that requires year-round prepar
  
 We vet potential projects as best we can because it is costly to make a mistake. We have limited funds and time to work on projects. The fellows need to hit the ground running and to make progress throughout the summer, neither of which can happen if we don't choose the projects well. For various reasons, we’ve had to "kill" a project or two once the fellowship was underway and switch the teams to a different project, which disrupts the environment and makes it difficult for the affected team of fellows to be as effective as they would've been otherwise. 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/94SgQ58g2Mk?rel=0" frameborder="0" allowfullscreen></iframe>
+[<i>Hear from some of our 2015 partners.</i>]
+
 Many people have asked what we look for when choosing projects. There is no simple formula. We consider many things, some of which relate to the goals of the fellowship and some of which are practical. We decided to write this post to give everyone a better idea of what we look at when we evaluate a project’s potential.
 
 ####Project Requirements####
